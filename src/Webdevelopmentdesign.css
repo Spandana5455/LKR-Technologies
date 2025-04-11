@@ -1,0 +1,438 @@
+.webdevelopment-section {
+    background-image: url('./images/webdevelopmentbg.png'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    position: relative;                
+    z-index: 1;                       
+    overflow: visible !important;
+    width: 100vw;             
+    position: relative;
+    overflow: hidden;
+    margin-top: -245px;       
+    margin-left: calc(-50vw + 50%); 
+}
+.webdevelopment-heading {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+.container-fluid,
+.row,
+.webdevelopment-imagebg {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+.webdevelopment-imagebg {
+    background-color: #EAEAEA;
+    display: flex;
+    align-items: center;
+    position: relative;                
+    z-index: 1;                       
+    overflow: visible !important;
+    width: 100vw;
+}
+.webdevelopment-head {
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+    padding-right: 230px;
+    margin-left: -50px;
+}
+.webdevelopment-text {
+    font-size: 24px;
+    font-weight: 300;
+    margin-right: 60px;
+    margin-left: -50px;
+}
+.webdevelopmentimage {
+    display: block;
+    width: 100%;
+    margin-left: -120px;
+    padding: 0;
+}
+.webdevelopment-whatweoffer-heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+.webdevelopment-whatweoffer-section {
+    padding-top: 80px;
+}
+.webdevelopment-whatweoffer-head {
+    font-size: 32px;
+    font-weight: 400;
+    color: black;
+    text-align: start;
+    padding-top: 100px;
+}
+.webdevelopment-whatweoffer-body {
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    text-align: start;
+    margin-right: 170px;
+}
+.webdevelopment-whatweoffer-head-right {
+    font-size: 32px;
+    font-weight: 400;
+    color: black;
+    text-align: start;
+    padding-top: 100px;
+}
+.webdevelopment-whatweoffer-body-right {
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    text-align: start;
+    margin-right: 190px;
+}
+
+
+@media (min-width: 768px) and (max-width: 989px) {
+    .webdevelopmentimage,
+    .webdevelopmentimg1,
+    .webdevelopmentimg2,
+    .webdevelopmentimg3,
+    .webdevelopmentimg4,
+    .webdevelopmentimg5 {
+      width: 100%;
+      margin-left: 0;
+      object-fit: cover;
+    }
+  
+    .webdevelopment-head {
+      font-size: 28px;
+      padding-right: 40px;
+      margin-left: -20px;
+    }
+  
+    .webdevelopment-text {
+      font-size: 20px;
+      margin-right: 40px;
+      margin-left: -20px;
+    }
+  
+    .webdevelopment-whatweoffer-body,
+    .webdevelopment-whatweoffer-body-right {
+      margin-right: 60px;
+    }
+}
+  
+  
+@media (min-width: 991px) and (max-width: 1199px) {
+    .webdevelopment-heading {
+      font-size: 52px;
+    }
+  
+    .webdevelopment-section {
+      margin-top: -200px;
+      margin-left: calc(-50vw + 50%);
+      min-height: 85vh;
+    }
+  
+    .webdevelopmentimage {
+      margin-left: -120px;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  
+    .webdevelopment-head {
+      font-size: 26px;
+      padding-right: 60px;
+      margin-left: -30px;
+    }
+  
+    .webdevelopment-text {
+      font-size: 20px;
+      margin-left: -30px;
+      margin-right: 30px;
+    }
+  
+    .webdevelopment-whatweoffer-heading {
+      font-size: 28px;
+    }
+  
+    .webdevelopment-whatweoffer-head,
+    .webdevelopment-whatweoffer-head-right {
+      font-size: 26px;
+      padding-top: 60px;
+    }
+  
+    .webdevelopment-whatweoffer-body {
+      font-size: 15px;
+      margin-right: 100px;
+    }
+  
+    .webdevelopment-whatweoffer-body-right {
+      font-size: 15px;
+      margin-right: 110px;
+    }
+  
+    .webdevelopmentimg1,
+    .webdevelopmentimg2,
+    .webdevelopmentimg3,
+    .webdevelopmentimg4,
+    .webdevelopmentimg5 {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      margin-bottom: 20px;
+    }
+}
+@media (max-width: 990px) {
+    .webdevelopment-heading {
+      font-size: 48px;
+    }
+  
+    .webdevelopment-section {
+      margin-top: -180px;
+      margin-left: calc(-50vw + 50%);
+      min-height: 80vh;
+    }
+  
+    .webdevelopmentimage {
+      margin-left: -60px;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  
+    .webdevelopment-head {
+      font-size: 24px;
+      padding-right: 40px;
+      margin-left: -20px;
+    }
+  
+    .webdevelopment-text {
+      font-size: 18px;
+      margin-left: -20px;
+      margin-right: 20px;
+    }
+  
+    .webdevelopment-whatweoffer-heading {
+      font-size: 26px;
+    }
+  
+    .webdevelopment-whatweoffer-head,
+    .webdevelopment-whatweoffer-head-right {
+      font-size: 24px;
+      padding-top: 50px;
+    }
+  
+    .webdevelopment-whatweoffer-body {
+      font-size: 14px;
+      margin-right: 80px;
+    }
+  
+    .webdevelopment-whatweoffer-body-right {
+      font-size: 14px;
+      margin-right: 90px;
+    }
+  
+    .webdevelopmentimg1,
+    .webdevelopmentimg2,
+    .webdevelopmentimg3,
+    .webdevelopmentimg4,
+    .webdevelopmentimg5 {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      margin-top: 20px;
+    }
+}
+  
+@media (min-width: 800px) and (max-width: 990px) {
+    .webdevelopmentimage {
+      margin-left: -170px; 
+      width: 100%;
+      padding: 0;
+    }
+  
+    .webdevelopment-head {
+      font-size: 28px;
+      margin-left: -160px;
+      padding-right: 50px;
+    }
+  
+    .webdevelopment-text {
+      font-size: 20px;
+      margin-left: -160px;
+      margin-right: 40px;
+    }
+}
+@media (max-width: 768px) {
+    
+    .webdevelopment-imagebg {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 20px 0;
+    }
+  
+    .webdevelopmentimage {
+      width: 100%;
+      margin-left: 0;
+      padding: 0;
+    }
+  
+    .webdevelopment-head {
+      font-size: 24px;
+      font-weight: 600;
+      margin-left: 0;
+      padding: 10px 15px;
+      color: black;
+    }
+  
+    .webdevelopment-text {
+      font-size: 18px;
+      font-weight: 300;
+      margin: 0;
+      padding: 10px 15px 20px;
+      color: black;
+    }
+  
+    .webdevelopmentimg1,
+    .webdevelopmentimg2,
+    .webdevelopmentimg3,
+    .webdevelopmentimg4,
+    .webdevelopmentimg5 {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      padding: 15px 0;
+    }
+  
+    .webdevelopment-whatweoffer-heading {
+      font-size: 28px;
+      text-align: center;
+      padding: 0 10px;
+    }
+  
+    .webdevelopment-whatweoffer-head,
+    .webdevelopment-whatweoffer-head-right {
+      font-size: 24px;
+      text-align: center;
+      padding-top: 40px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .webdevelopment-whatweoffer-body,
+    .webdevelopment-whatweoffer-body-right {
+      font-size: 14px;
+      text-align: center;
+      padding: 0 20px;
+      margin-right: 0;
+    }
+  
+    .webdevelopment-heading {
+      font-size: 36px;
+      padding: 0 10px;
+    }
+  
+    .webdevelopment-section {
+      margin-top: 0;
+      margin-left: 0;
+      background-position: top;
+      text-align: center;
+      margin-top: -180px;
+      margin-left: calc(-50vw + 50%);
+      min-height: 80vh;
+    }
+    
+}
+
+@media (min-width: 572px) and (max-width: 768px) {
+    .webdevelopment-imagebg {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-left: -120px !important;
+      width: 100% !important;
+    }
+  
+    .webdevelopmentimage {
+      width: 100% !important;
+      margin-left: 0px !important;
+      padding: 0;
+    }
+  
+    .webdevelopment-head {
+      font-size: 24px;
+      font-weight: 600;
+      padding: 10px 30px;
+      margin-left: 0;
+      color: #000;
+    }
+  
+    .webdevelopment-text {
+      font-size: 18px;
+      font-weight: 300;
+      padding: 0 30px 20px;
+      margin: 0;
+      color: #000;
+    }
+  
+    .webdevelopment-whatweoffer-heading {
+      font-size: 28px;
+      padding: 0 15px;
+      text-align: center;
+    }
+  
+    .webdevelopment-whatweoffer-section {
+      padding-top: 60px;
+    }
+  
+    .webdevelopment-whatweoffer-head,
+    .webdevelopment-whatweoffer-head-right {
+      font-size: 24px;
+      padding-top: 40px;
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .webdevelopment-whatweoffer-body,
+    .webdevelopment-whatweoffer-body-right {
+      font-size: 14px;
+      text-align: center;
+      margin-right: 0;
+      padding: 0 30px;
+    }
+  
+    .webdevelopmentimg1,
+    .webdevelopmentimg2,
+    .webdevelopmentimg3,
+    .webdevelopmentimg4,
+    .webdevelopmentimg5 {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 10px auto;
+    }
+  
+    .webdevelopment-heading {
+      font-size: 36px;
+      padding: 0 15px;
+      text-align: center;
+    }
+  
+    .webdevelopment-section {
+      margin-top: 0;
+      margin-left: 0;
+      background-position: center;
+      background-size: cover;
+      min-height: auto;
+      background-position: top;
+      margin-top: -180px;
+      margin-left: calc(-50vw + 50%);
+      min-height: 80vh;
+    }
+}

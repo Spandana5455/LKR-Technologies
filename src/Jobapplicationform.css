@@ -1,0 +1,30 @@
+.jobform-header {
+    font-size: 48px !important;
+    font-weight: 700 !important;
+    padding-bottom: 20px !important;
+    background-image: linear-gradient(to right, #CA2127, #666666);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.form-label {
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    font-weight: bold !important
+}
+.btn-color-submit {
+    background-color: #CA2127 !important;
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    color: white !important;
+    width: 133px !important;
+    height: 49px !important;
+    border: #CA2127 !important;
+    border-radius: 5px !important;
+}
+.form-label-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+

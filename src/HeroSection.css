@@ -1,0 +1,149 @@
+.herosection {
+    padding-top: 30px;
+}
+
+.hero-section {
+    padding-top: 60px;
+}
+.hero-section-heading {
+    font-size: 64px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #CA2127, #666666);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.hero-section-sub-heading {
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+}
+.hero-section-body {
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+}
+.hero-image {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+.get-in-touch-button {
+    background-color: #CA2127;
+    border-radius: 50px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #CA2127;
+    font-size: 24px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+.get-in-touch-button:active {
+    background-color: #CA2127;
+    border: 1px solid #CA2127;
+    color: white;
+}
+@media (max-width: 990px) {
+    .hero-section-heading {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .hero-section-sub-heading {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .hero-section-body {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .hero-section {
+        padding-top: 40px;
+        text-align: center;
+    }
+}
+@media (max-width: 575.98px) {
+    .hero-section-heading {
+        font-size: 36px;
+    }
+
+    .hero-section-sub-heading {
+        font-size: 22px;
+    }
+
+    .hero-section-body {
+        font-size: 16px;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-section {
+        padding-top: 30px;
+    }
+}
+@media (min-width: 769px) and (max-width: 990px) {
+    .hero-image {
+      max-width: 100%; 
+    }
+}
+  
+
+@media (max-width: 768px) {
+    .hero-section {
+      text-align: center;
+      padding-top: 40px;
+    }
+  
+    .hero-image {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .hero-section-heading {
+      font-size: 36px;
+    }
+  
+    .hero-section-sub-heading {
+      font-size: 22px;
+    }
+  
+    .hero-section-body {
+      font-size: 16px;
+    }
+}
+
+@media (max-width: 990px) {
+    .get-in-touch-button {
+        padding: 8px 24px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 576px) {
+    .get-in-touch-button {
+        padding: 6px 20px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 400px) {
+    .get-in-touch-button {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+  

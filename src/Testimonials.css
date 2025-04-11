@@ -1,0 +1,217 @@
+.life-container {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.life-heading {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.company-name {
+  color:#CA2127;
+}
+
+.group-img {
+  width: 100% !important;
+  margin: 20px auto;
+  display: block;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 30px;
+  margin-top: -250px;
+}
+
+
+.life-card {
+  flex: 0 0 calc(25% - 15px);
+  max-width: calc(25% - 15px);
+  height: 325px;
+  border: 1px solid #CA2127;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px 15px;
+  text-align: start;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.image-row .profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.image-row .logo-img {
+  width: 70px;
+}
+
+.testimonial-text {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.profile-img
+{
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.logo-img {
+  margin-right: 10px;
+} 
+
+@media (max-width: 1024px) {
+  .life-card {
+    flex: 0 0 calc(25% - 10px);
+    max-width: calc(25% - 10px);
+    padding: 15px 10px;
+  }
+
+  .life-heading {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 990px) and (max-width: 1023px) {
+  .life-card {
+    flex: 0 0 calc(25% - 12px);
+    max-width: calc(25% - 12px);
+    padding: 15px 10px;
+    height: auto;
+  }
+
+  .card-container {
+    gap: 12px;
+  }
+
+  .life-heading {
+    font-size: 30px;
+  }
+
+  .testimonial-text {
+    font-size: 13px;
+  }
+}
+@media (min-width: 800px) and (max-width: 990px) {
+  .life-card {
+    flex: 0 0 calc(25% - 10px);
+    max-width: calc(25% - 10px);
+    padding: 12px 10px;
+    height: auto;
+  }
+
+  .card-container {
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .life-heading {
+    font-size: 28px;
+  }
+
+  .testimonial-text {
+    font-size: 13px;
+  }
+
+  .image-row .profile-img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .image-row .logo-img {
+    width: 60px;
+  }
+}
+/* For screens between 572px and 800px */
+@media (min-width: 572px) and (max-width: 800px) {
+  .life-card {
+    flex: 0 0 calc(25% - 8px);
+    max-width: calc(25% - 8px);
+    padding: 10px 8px;
+    height: auto;
+  }
+
+  .card-container {
+    gap: 8px;
+    padding: 15px;
+    margin-top: -120px;
+  }
+
+  .life-heading {
+    font-size: 24px;
+  }
+
+  .testimonial-text {
+    font-size: 12px;
+    padding: 0 5px;
+  }
+
+  .image-row .profile-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .image-row .logo-img {
+    width: 55px;
+  }
+}
+/* For screens between 320px and 571px */
+@media (min-width: 320px) and (max-width: 571px) {
+  .life-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 10px;
+    height: auto;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+    margin-top: -100px;
+  }
+
+  .life-heading {
+    font-size: 20px;
+  }
+
+  .testimonial-text {
+    font-size: 12px;
+    text-align: center;
+    padding: 0 8px;
+  }
+
+  .image-row {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .image-row .profile-img,
+  .image-row .logo-img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+  }
+}

@@ -1,0 +1,221 @@
+.our-projects-heading {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+}
+.our-projects-heading-projects {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #CA2127;
+}
+.rummyludo-start-text {
+    font-size: 24px;
+    font-weight: 400;
+    color: #CA2127;
+    padding-top: 15px;
+}
+.rummyludo-text {
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    padding-top: 15px;
+}
+.dropquick-text {
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    padding-top: 15px;
+}
+.dropquick-start-text {
+    font-size: 24px;
+    font-weight: 400;
+    color: #CA2127;
+    padding-top: 15px;
+}
+.hostel-text {
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    padding-top: 20px;
+}
+.hostel-start-text {
+    font-size: 24px;
+    font-weight: 400;
+    color: #CA2127;
+    padding-top: 20px;
+}
+.dropquick-image {
+    margin-left: 170px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .our-projects-heading,
+    .our-projects-heading-projects {
+        font-size: 32px;
+    }
+
+    .rummyludo-start-text,
+    .rummyludo-text,
+    .dropquick-text,
+    .dropquick-start-text,
+    .hostel-text,
+    .hostel-start-text {
+        font-size: 20px;
+        padding-top: 12px;
+    }
+
+    .dropquick-image {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .our-projects-heading,
+    .our-projects-heading-projects {
+        font-size: 24px;
+    }
+
+    .rummyludo-start-text,
+    .rummyludo-text,
+    .dropquick-text,
+    .dropquick-start-text,
+    .hostel-text,
+    .hostel-start-text {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+    .dropquick-image {
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1233px) {
+    .dropquick-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .dropquick-image {
+        flex-shrink: 0;
+        max-width: 100%;
+        margin-left: 60px;
+    }
+}
+@media (min-width: 769px) and (max-width: 990px) {
+    .dropquick-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .dropquick-image {
+        margin-left: 0;       
+        width: 100%;
+        max-width: 300px;      
+        height: auto;
+    }
+
+    .dropquick-text,
+    .dropquick-start-text {
+        font-size: 18px;
+        line-height: 1.5;
+        padding-top: 10px;
+        word-wrap: break-word;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 990px) {
+    .rummyludo-wrapper {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      text-align: center;
+      gap: 20px;
+      padding: 0 16px;
+    }
+  
+    .rummyludo-image {
+      width: 100% !important;
+      max-width: 300px !important;
+      height: auto !important;
+      margin: 0 auto !important;
+      float: none !important;
+      position: static !important;
+      display: block !important;
+    }
+  
+    .rummyludo-text-block {
+      width: 100%;
+      max-width: 600px;
+    }
+  
+    .rummyludo-start-text,
+    .rummyludo-text {
+      font-size: 18px !important;
+      padding-top: 10px;
+      line-height: 1.5;
+      word-break: break-word;
+    }
+}
+@media (min-width: 769px) and (max-width: 990px) {
+    .hostel-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .hostel-image {
+        margin-left: 0;       
+        width: 100%;
+        max-width: 300px;      
+        height: auto;
+    }
+
+    .hostel-text,
+    .hostel-start-text {
+        font-size: 18px;
+        line-height: 1.5;
+        padding-top: 10px;
+        word-wrap: break-word;
+    }
+}
+
+@media (max-width: 757px) {
+    .rummyludo-image,
+    .dropquick-image,
+    .hostel-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      max-width: 350px; 
+      height: auto;
+    }
+  
+    .rummyludo-text-block,
+    .dropquick-text-block,
+    .hostel-text-block {
+      text-align: center;
+      padding: 0 15px;
+    }
+  
+    .rummyludo-start-text,
+    .rummyludo-text,
+    .dropquick-start-text,
+    .dropquick-text,
+    .hostel-start-text,
+    .hostel-text {
+      text-align: start;
+    }
+}

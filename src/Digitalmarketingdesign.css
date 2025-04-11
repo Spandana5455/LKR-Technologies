@@ -1,0 +1,443 @@
+.digital-marketing-section {
+    background-image: url('./images/digitalmarketingbg.png'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    position: relative;                
+    z-index: 1;                       
+    overflow: visible !important;
+    width: 100vw;             
+    position: relative;
+    overflow: hidden;
+    margin-top: -245px;       
+    margin-left: calc(-50vw + 50%); 
+}
+.digital-marketing-heading {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+.digital-marketing-head {
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+    padding-right: 160px;
+    margin-left: -50px;
+}
+.digital-marketing-text {
+    font-size: 24px;
+    font-weight: 300;
+    margin-right: 60px;
+    margin-left: -50px;
+}
+.container-fluid 
+.row
+.digital-marketing-imagebg {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}
+.digital-marketing-imagebg {
+    background-color: #EAEAEA;
+    display: flex;
+    align-items: center;
+    position: relative;                
+    z-index: 1;                       
+    overflow: visible !important;
+    width: 100vw;
+}
+.digital-marketingimage {
+    display: block;
+    width: 100%;
+    margin-left: -120px;
+    padding: 0;
+}
+.digital-marketing-whatweoffer-heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+.digital-marketing-whatweoffer-section {
+    padding-top: 80px;
+}
+.digital-marketing-whatweoffer-head {
+    font-size: 32px;
+    font-weight: 400;
+    color: black;
+    text-align: start;
+    padding-top: 80px;
+}
+.digital-marketing-whatweoffer-body {
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    text-align: start;
+    margin-right: 100px;
+}
+.digital-marketing-whatweoffer-head-right {
+    font-size: 32px;
+    font-weight: 400;
+    color: black;
+    text-align: start;
+    padding-top: 80px;
+}
+.digital-marketing-whatweoffer-body-right {
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    text-align: start;
+    margin-right: 100px;
+}
+
+@media (min-width: 768px) and (max-width: 989px) {
+    .digitalmarketingimage,
+    .digitalmarketingimg1,
+    .digitalmarketingimg2,
+    .digitalmarketingimg3,
+    .digitalmarketingimg4,
+    .digitalmarketingimg5 {
+      width: 100%;
+      margin-left: 0;
+      object-fit: cover;
+    }
+  
+    .digital-marketing-head {
+      font-size: 28px;
+      padding-right: 40px;
+      margin-left: -20px;
+    }
+  
+    .digital-marketing-text {
+      font-size: 20px;
+      margin-right: 40px;
+      margin-left: -20px;
+    }
+  
+    .digital-marketing-whatweoffer-body,
+    .digital-marketing-whatweoffer-body-right {
+      margin-right: 60px;
+    }
+}
+  
+  
+@media (min-width: 991px) and (max-width: 1199px) {
+    .digital-marketing-heading {
+      font-size: 52px;
+    }
+  
+    .digital-marketing-section {
+      margin-top: -200px;
+      margin-left: calc(-50vw + 50%);
+      min-height: 85vh;
+    }
+  
+    .digitalmarketingimage {
+      margin-left: -120px;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  
+    .digital-marketing-head {
+      font-size: 26px;
+      padding-right: 60px;
+      margin-left: -30px;
+    }
+  
+    .digital-marketing-text {
+      font-size: 20px;
+      margin-left: -30px;
+      margin-right: 30px;
+    }
+  
+    .digital-marketing-whatweoffer-heading {
+      font-size: 28px;
+    }
+  
+    .digital-marketing-whatweoffer-head {
+        font-size: 26px;
+      padding-top: 90px;
+    }
+    .digital-marketing-whatweoffer-head-right {
+      font-size: 26px;
+      padding-top: 90px;
+      margin-left: 80px;
+    }
+  
+    .digital-marketing-whatweoffer-body {
+      font-size: 15px;
+      margin-right: 100px;
+    }
+  
+    .digital-marketing-whatweoffer-body-right {
+      font-size: 15px;
+      margin-right: 110px;
+      margin-left: 80px;
+    }
+  
+    .digitalmarketingimg1,
+    .digitalmarketingimg2,
+    .digitalmarketingimg3,
+    .digitalmarketingimg4,
+    .digitalmarketingimg5 {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      margin-bottom: 20px;
+    }
+}
+@media (max-width: 990px) {
+    .digital-marketing-heading {
+      font-size: 48px;
+    }
+  
+    .digital-marketing-section {
+      margin-top: -180px;
+      margin-left: calc(-50vw + 50%);
+      min-height: 80vh;
+    }
+  
+    .digitalmarketingimage {
+      margin-left: -60px;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  
+    .digital-marketing-head {
+      font-size: 24px;
+      padding-right: 40px;
+      margin-left: -20px;
+    }
+  
+    .digital-marketing-text {
+      font-size: 18px;
+      margin-left: -20px;
+      margin-right: 20px;
+    }
+  
+    .digital-marketing-whatweoffer-heading {
+      font-size: 26px;
+    }
+  
+    .digital-marketing-whatweoffer-head,
+    .digital-marketing-whatweoffer-head-right {
+      font-size: 24px;
+      padding-top: 50px;
+    }
+  
+    .digital-marketing-whatweoffer-body {
+      font-size: 14px;
+      margin-right: 80px;
+    }
+  
+    .digital-marketing-whatweoffer-body-right {
+      font-size: 14px;
+      margin-right: 90px;
+    }
+  
+    .digitalmarketingimg1,
+    .digitalmarketingimg2,
+    .digitalmarketingimg3,
+    .digitalmarketingimg4,
+    .digitalmarketingimg5 {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      margin-top: 20px;
+    }
+  }
+  
+@media (min-width: 800px) and (max-width: 990px) {
+    .digitalmarketingimage {
+      margin-left: -170px; 
+      width: 100%;
+      padding: 0;
+    }
+  
+    .digital-marketing-head {
+      font-size: 28px;
+      margin-left: -160px;
+      padding-right: 50px;
+    }
+  
+    .digital-marketing-text {
+      font-size: 20px;
+      margin-left: -160px;
+      margin-right: 40px;
+    }
+}
+@media (max-width: 768px) {
+    
+    .digital-marketing-imagebg {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 20px 0;
+    }
+  
+    .digitalmarketingimage {
+      width: 100%;
+      margin-left: 0;
+      padding: 0;
+    }
+  
+    .digital-marketing-head {
+      font-size: 24px;
+      font-weight: 600;
+      margin-left: 0;
+      padding: 10px 15px;
+      color: black;
+    }
+  
+    .digital-marketing-text {
+      font-size: 18px;
+      font-weight: 300;
+      margin: 0;
+      padding: 10px 15px 20px;
+      color: black;
+    }
+  
+    .digitalmarketingimg1,
+    .digitalmarketingimg2,
+    .digitalmarketingimg3,
+    .digitalmarketingimg4,
+    .digitalmarketingimg5 {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      padding: 15px 0;
+    }
+  
+    .digital-marketing-whatweoffer-heading {
+      font-size: 28px;
+      text-align: center;
+      padding: 0 10px;
+    }
+  
+    .digital-marketing-whatweoffer-head,
+    .digital-marketing-whatweoffer-head-right {
+      font-size: 24px;
+      text-align: center;
+      padding-top: 40px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .digital-marketing-whatweoffer-body,
+    .digital-marketing-whatweoffer-body-right {
+      font-size: 14px;
+      text-align: center;
+      padding: 0 20px;
+      margin-right: 0;
+    }
+  
+    .digital-marketing-heading {
+      font-size: 36px;
+      padding: 0 10px;
+    }
+  
+    .digital-marketing-section {
+      margin-top: 0;
+      margin-left: 0;
+      background-position: top;
+      text-align: center;
+      margin-top: -180px;
+      margin-left: calc(-50vw + 50%);
+      min-height: 80vh;
+    }
+    
+}
+
+@media (min-width: 572px) and (max-width: 768px) {
+    .digital-marketing-imagebg {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-left: -120px !important;
+      width: 100% !important;
+    }
+  
+    .digitalmarketingimage {
+      width: 100% !important;
+      margin-left: 0px !important;
+      padding: 0;
+    }
+  
+    .digital-marketing-head {
+      font-size: 24px;
+      font-weight: 600;
+      padding: 10px 30px;
+      margin-left: 0;
+      color: #000;
+    }
+  
+    .digital-marketing-text {
+      font-size: 18px;
+      font-weight: 300;
+      padding: 0 30px 20px;
+      margin: 0;
+      color: #000;
+    }
+  
+    .digital-marketing-whatweoffer-heading {
+      font-size: 28px;
+      padding: 0 15px;
+      text-align: center;
+    }
+  
+    .digital-marketing-whatweoffer-section {
+      padding-top: 60px;
+    }
+  
+    .digital-marketing-whatweoffer-head,
+    .digital-marketing-whatweoffer-head-right {
+      font-size: 24px;
+      padding-top: 40px;
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .digital-marketing-whatweoffer-body,
+    .digital-marketing-whatweoffer-body-right {
+      font-size: 14px;
+      text-align: center;
+      margin-right: 0;
+      padding: 0 30px;
+    }
+  
+    .digitalmarketingimg1,
+    .digitalmarketingimg2,
+    .digitalmarketingimg3,
+    .digitalmarketingimg4,
+    .digitalmarketingimg5 {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 10px auto;
+    }
+  
+    .digital-marketing-heading {
+      font-size: 36px;
+      padding: 0 15px;
+      text-align: center;
+    }
+  
+    .digital-marketing-section {
+      margin-top: 0;
+      margin-left: 0;
+      background-position: center;
+      background-size: cover;
+      min-height: auto;
+      background-position: top;
+      margin-top: -180px;
+      margin-left: calc(-50vw + 50%);
+      min-height: 80vh;
+    }
+}
+  

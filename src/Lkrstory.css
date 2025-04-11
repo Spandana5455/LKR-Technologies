@@ -1,0 +1,395 @@
+.lkr-story-section {
+    background-image: url('./images/lkrstorybg.png'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    position: relative;                
+    z-index: 1;                       
+    overflow: visible !important;
+    width: 100vw;             
+    position: relative;
+    overflow: hidden;
+    margin-top: -245px;       
+    margin-left: calc(-50vw + 50%); 
+}
+.lkr-story-heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+.lkr-story-heading-two {
+  font-size: 40px;
+  font-weight: 600;
+  color: #CA2127;
+  text-align: center;
+}
+
+.lkrstory-section {
+  padding-top: 40px;
+}
+.lkrstory-head {
+  font-size: 32px;
+  font-weight: 600;
+  color: black;
+}
+.lkrstory-head-two {
+  font-size: 32px;
+  font-weight: 600;
+  color: #CA2127;
+}
+.lkrstory-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-right: 50px;
+}
+.lkr-learn-more {
+  font-size: 24px;
+  font-weight: 400;
+  color: #CA2127;
+  padding-left: 450px;
+  padding-top: 50px;
+}
+.lkrstory-image {
+  padding-right: 80px;
+  height: 463px;
+  width: 716px;
+  flex-wrap: wrap;
+}
+.chevrons i {
+  margin-right: 2px; 
+}
+
+.chevrons .no-gap {
+  margin-left: -9px; 
+}
+
+.headers-text {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.highlight-text {
+  color: #ca2127;
+}
+
+.drive-icon {
+  font-size: 2.5rem;
+  color: #ca2127;
+}
+
+.drive-container {
+  padding: 30px;
+}
+.drive-section {
+  margin-top: 30px;
+}
+
+.drive-desc {
+  max-width: 300px;
+  margin: 0 auto;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.content-wrapper {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.drive-img {
+  width: 100%;
+  margin-left: 55%;
+  height: 453px;
+}
+
+.services-carousel {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-height: 400px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  padding-right: 160px;
+
+  margin-left: 25%;
+  direction: rtl;
+  text-align: left;
+}
+
+.services-card {
+  margin-left: 25px;
+  direction: ltr;
+}
+
+.services-carousel::-webkit-scrollbar {
+  width: 8px;
+}
+
+.services-carousel::-webkit-scrollbar-thumb {
+  background-color: #ca2127;
+  border-radius: 10px;
+}
+
+.services-carousel::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.react-service-icon img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.service-titles {
+  font-size: 18px;
+  font-weight: bold;
+  color: #888888;
+}
+
+.service-desc {
+  font-size: 14px;
+  color: #888888;
+  line-height: 1.5;
+}
+
+.underline {
+  width: 450px;
+  height: 2px;
+  background: #ca2127;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .border-md-end {
+    border-right: 1px solid #ccc;
+  }
+}
+
+@media (max-width: 767px) {
+  .headers-text {
+    font-size: 22px;
+  }
+
+  .drive-icon {
+    font-size: 2rem;
+  }
+
+  .drive-desc {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+}
+@media (max-width: 992px) {
+  .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .drive-img {
+    margin-left: 0;
+    max-width: 300px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .services-carousel {
+    margin-left: 0;
+    width: 100%;
+    direction: rtl;
+    text-align: left;
+    align-items: center;
+  }
+
+  .services-card {
+    width: 90%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .headers-text {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .service-title {
+    font-size: 16px;
+  }
+
+  .service-desc {
+    font-size: 13px;
+  }
+
+  .underline {
+    width: 250px;
+  }
+
+  .services-carousel {
+    max-height: 300px;
+  }
+
+  .services-card {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1284px) {
+  .lkr-learn-more {
+    padding-left: 450px;
+    padding-top: 50px;
+    font-size: 24px;
+  }
+
+  .lkrstory-text {
+    padding-right: 50px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .lkrstory-head,
+  .lkrstory-head-two {
+    font-size: 32px;
+  }
+
+  .lkrstory-heading,
+  .lkrstory-heading-two {
+    font-size: 40px;
+  }
+
+  .lkrstory-image {
+    width: 716px;
+    height: 463px;
+    padding-right: 80px;
+  }
+
+  .chevrons i {
+    margin-right: 2px;
+  }
+
+  .chevrons .no-gap {
+    margin-left: -9px;
+  }
+}
+
+@media (max-width: 1284px) and (min-width:991px) {
+  .lkr-learn-more {
+    padding-left: 370px;
+    padding-top: 45px;
+    font-size: 20px;
+  }
+  .lkrstory-text {
+    padding-right: 20px;
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .lkrstory-head,
+  .lkrstory-head-two {
+    font-size: 30px;
+  }
+  .lkrstory-heading,
+  .lkrstory-heading-two {
+    font-size: 36px;
+  }
+  .lkrstory-image {
+    width: 100%;
+    height: 100%;
+    padding-right: 0;
+  }
+  .chevrons i {
+    margin-right: 4px;
+  }
+
+  .chevrons .no-gap {
+    margin-left: -28px;
+  }
+}
+@media (max-width: 991px) {
+  .lkr-learn-more {
+    padding-left: 200px;
+    padding-top: 40px;
+    font-size: 20px;
+  }
+
+  .lkrstory-text {
+    padding-right: 20px;
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  .lkrstory-head,
+  .lkrstory-head-two {
+    font-size: 28px;
+  }
+
+  .lkrstory-heading,
+  .lkrstory-heading-two {
+    font-size: 34px;
+  }
+
+  .lkrstory-image {
+    width: 110%;
+    height: 100%;
+    padding-right: 0;
+  }
+  .chevrons i {
+    margin-right: 4px;
+  }
+
+  .chevrons .no-gap {
+    margin-left: -28px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .lkr-learn-more {
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 18px;
+  }
+
+  .lkrstory-text {
+    padding-right: 0;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .lkrstory-head,
+  .lkrstory-head-two {
+    font-size: 24px;
+  }
+
+  .lkrstory-heading,
+  .lkrstory-heading-two {
+    font-size: 28px;
+  }
+
+  .lkrstory-image {
+    width: 100%;
+    height: auto;
+    padding-right: 0;
+  }
+
+  .chevrons i {
+    margin-right: 1px;
+  }
+
+  .chevrons .no-gap {
+    margin-left: -5px;
+  }
+}
+

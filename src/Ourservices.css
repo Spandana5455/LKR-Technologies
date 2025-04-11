@@ -1,0 +1,123 @@
+.mainBox {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    background-size: cover;
+    width: 100vw; 
+    margin-left: calc(-50vw + 50%);
+    overflow-x: hidden;
+}
+  
+.heading-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+  
+.our-section {
+    color: white;
+    display: inline;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+  
+.service-section {
+    color: #CA2127;
+    display: inline;
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+  
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.service-card {
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    max-width: 100%!important;
+    transition: all 0.3s ease;
+}
+  
+.service-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.service-title {
+  font-size: 32px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.service-description {
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.know-more-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #CA2127;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+  
+
+ /* 🔹 Laptop (up to 1024px) */
+ @media (max-width: 1024px) {
+  .service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .our-section,
+  .service-section {
+    font-size: 2.2rem;
+  }
+}
+
+/* 🔹 Tablet (up to 768px) */
+@media (max-width: 768px) {
+  .service-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .our-section,
+  .service-section {
+    font-size: 2rem;
+  }
+}
+
+/* 🔹 Mobile (up to 425px and below) */
+@media (max-width: 425px) {
+  .service-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .our-section,
+  .service-section {
+    font-size: 1.5rem;
+  }
+
+  .heading-container {
+    margin-bottom: 20px;
+  }
+}
