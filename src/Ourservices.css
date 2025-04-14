@@ -120,4 +120,13 @@
   .heading-container {
     margin-bottom: 20px;
   }
+  .service-card {
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    max-width: 75%!important;
+    transition: all 0.3s ease;
+}
+  
 }
