@@ -91,13 +91,7 @@ const Lkrstory = () => {
           them stay ahead in the competitive tech landscape.
         </p>
 
-        <h5 className="lkr-learn-more">
-          Learn more 
-          <span className="chevrons">
-            <i className="bi bi-chevron-right"></i>
-            <i className="bi bi-chevron-right no-gap"></i>
-          </span>
-        </h5>
+       
       </div>
 
       <div className="col-md-6">

@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className="row">
         <div className="col-md-6 hero-section">
         <h1 className="hero-section-heading">LKR Technologies</h1>
-        <p className="hero-section-sub-heading">-smart IT solution That Supports your vision</p>
+        <p className="hero-section-sub-heading">-Smart IT solution That Supports your vision</p>
         <p className="hero-section-body">we deliver intelligent, secure, and scalable IT systems designed to 
           <br/>move with your business-so you can focus on leading,
           <br/>not managing tech.</p>

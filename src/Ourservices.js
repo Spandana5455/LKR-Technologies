@@ -10,6 +10,7 @@ import webdevelopment from './images/webdevelopment.png';
 import gamedeveloper from './images/gamedeveloper.png';
 
 
+
 const serviceData = [
   {
     title: "UI/UX Designer",

@@ -14,7 +14,7 @@ const Footer = () => {
     return (
         <>
         <footer className="footer-container">
-              <div className="footer-map">
+              <div className="footer-map m-4">
                 <iframe
                   title="LKR Technologies Location"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.3276970219163!2d78.3835950759407!3d17.444022801169506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9184a01bd757%3A0x62d915acf5b7c5a6!2sLKR%20Technologies%20Pvt.Ltd!5e0!3m2!1sen!2sin!4v1742289952824!5m2!1sen!2sin"

@@ -4,56 +4,72 @@
     text-align: center;
     color: black;
 }
+
 .our-projects-heading-projects {
     font-size: 40px;
     font-weight: 700;
     text-align: center;
     color: #CA2127;
 }
+
 .rummyludo-start-text {
     font-size: 24px;
     font-weight: 400;
     color: #CA2127;
     padding-top: 15px;
 }
+
 .rummyludo-text {
     font-size: 24px;
     font-weight: 400;
     color: black;
     padding-top: 15px;
 }
+
 .dropquick-text {
     font-size: 24px;
     font-weight: 400;
     color: black;
     padding-top: 15px;
 }
+
 .dropquick-start-text {
     font-size: 24px;
     font-weight: 400;
     color: #CA2127;
     padding-top: 15px;
 }
+
 .hostel-text {
     font-size: 24px;
     font-weight: 400;
     color: black;
-    padding-top: 20px;
+    padding-top: 0px;
 }
+
 .hostel-start-text {
     font-size: 24px;
     font-weight: 400;
     color: #CA2127;
     padding-top: 20px;
 }
+
 .dropquick-image {
     margin-left: 170px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
 }
+.suitsnsalon-image{
+    margin-left: 170px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 35px;
+}
 
 @media (max-width: 768px) {
+
     .our-projects-heading,
     .our-projects-heading-projects {
         font-size: 32px;
@@ -75,9 +91,11 @@
 }
 
 @media (max-width: 480px) {
+
     .our-projects-heading,
     .our-projects-heading-projects {
         font-size: 24px;
+        margin-top: -50px;
     }
 
     .rummyludo-start-text,
@@ -108,6 +126,7 @@
         margin-left: 60px;
     }
 }
+
 @media (min-width: 769px) and (max-width: 990px) {
     .dropquick-wrapper {
         display: flex;
@@ -118,9 +137,9 @@
     }
 
     .dropquick-image {
-        margin-left: 0;       
+        margin-left: 0;
         width: 100%;
-        max-width: 300px;      
+        max-width: 300px;
         height: auto;
     }
 
@@ -135,37 +154,38 @@
 
 @media (min-width: 769px) and (max-width: 990px) {
     .rummyludo-wrapper {
-      display: flex !important;
-      flex-direction: column !important;
-      align-items: center !important;
-      text-align: center;
-      gap: 20px;
-      padding: 0 16px;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center;
+        gap: 20px;
+        padding: 0 16px;
     }
-  
+
     .rummyludo-image {
-      width: 100% !important;
-      max-width: 300px !important;
-      height: auto !important;
-      margin: 0 auto !important;
-      float: none !important;
-      position: static !important;
-      display: block !important;
+        width: 100% !important;
+        max-width: 300px !important;
+        height: auto !important;
+        margin: 0 auto !important;
+        float: none !important;
+        position: static !important;
+        display: block !important;
     }
-  
+
     .rummyludo-text-block {
-      width: 100%;
-      max-width: 600px;
+        width: 100%;
+        max-width: 600px;
     }
-  
+
     .rummyludo-start-text,
     .rummyludo-text {
-      font-size: 18px !important;
-      padding-top: 10px;
-      line-height: 1.5;
-      word-break: break-word;
+        font-size: 18px !important;
+        padding-top: 10px;
+        line-height: 1.5;
+        word-break: break-word;
     }
 }
+
 @media (min-width: 769px) and (max-width: 990px) {
     .hostel-wrapper {
         display: flex;
@@ -176,9 +196,9 @@
     }
 
     .hostel-image {
-        margin-left: 0;       
+        margin-left: 0;
         width: 100%;
-        max-width: 300px;      
+        max-width: 300px;
         height: auto;
     }
 
@@ -193,29 +213,55 @@
 
 @media (max-width: 757px) {
     .rummyludo-image,
-    .dropquick-image,
+
     .hostel-image {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;
-      max-width: 350px; 
-      height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
     }
-  
+
+    .dropquick-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        margin-top: -458px;
+
+    }
+
     .rummyludo-text-block,
     .dropquick-text-block,
     .hostel-text-block {
-      text-align: center;
-      padding: 0 15px;
+        text-align: center;
+        padding: 0 15px;
     }
-  
+
     .rummyludo-start-text,
     .rummyludo-text,
     .dropquick-start-text,
-    .dropquick-text,
+
     .hostel-start-text,
     .hostel-text {
-      text-align: start;
+        text-align: start;
     }
+
+    .dropquick-text {
+        margin-top: 190px;
+    }
+
+    .suitsnsalon-image {
+        margin-top: -185%;
+
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+
 }

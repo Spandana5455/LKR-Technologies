@@ -1,18 +1,22 @@
 import React, { useState } from 'react';
 import './Jobapplicationform.css';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import Swal from 'sweetalert2';
+import emailjs from '@emailjs/browser';
 
 const JobApplicationForm = () => {
+  const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
-    email: '',
-    jobRole: '',
+    first_name: '',
+    last_name: '',
+    user_email: '',
+    job_role: '',
     address: '',
     city: '',
-    mobilenumber: '',
+    phone: '',
     date: '',
-    resumelink: null
+    drivelink: ''
   });
 
   const handleChange = (e) => {
@@ -23,11 +27,42 @@ const JobApplicationForm = () => {
     }));
   };
 
-
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form Data:', formData);
-    alert('Form submitted successfully!');
+
+    emailjs.init('_IrMPIBYjQ-KTOLVu'); // Replace with your EmailJS public key
+
+    emailjs.send('service_zyn85dk', 'template_gk8qaae', formData)
+      .then(() => {
+        Swal.fire({
+          icon: 'success',
+          title: 'Application Submitted',
+          text: 'Your application has been sent successfully!',
+          confirmButtonColor: '#4CAF50'
+        }).then(() => {
+          navigate('/jobappsuccess');
+        });
+
+        setFormData({
+          first_name: '',
+          last_name: '',
+          user_email: '',
+          job_role: '',
+          address: '',
+          city: '',
+          phone: '',
+          date: '',
+          drivelink: ''
+        });
+      })
+      .catch((error) => {
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'Something went wrong: ' + JSON.stringify(error),
+          confirmButtonColor: '#d33'
+        });
+      });
   };
 
   return (
@@ -35,53 +70,25 @@ const JobApplicationForm = () => {
       <h2 className="text-center fw-bold jobform-header">Job Application Form</h2>
       <form onSubmit={handleSubmit} className="p-4 bg-white">
         
-        
         <div className="row">
           <div className="col-md-6 mb-3 custom-box">
             <label className="fw-bold form-label">First Name</label>
-            <input 
-              type="text" 
-              name="firstName" 
-              className="form-control" 
-              placeholder="Enter first name" 
-              onChange={handleChange} 
-              required 
-            />
+            <input type="text" name="first_name" className="form-control" placeholder="Enter first name" value={formData.firstName} onChange={handleChange} required />
           </div>
           <div className="col-md-6 mb-3 custom-box">
             <label className="fw-bold form-label">Last Name</label>
-            <input 
-              type="text" 
-              name="lastName" 
-              className="form-control" 
-              placeholder="Enter last name" 
-              onChange={handleChange} 
-              required 
-            />
+            <input type="text" name="last_name" className="form-control" placeholder="Enter last name" value={formData.lastName} onChange={handleChange} required />
           </div>
         </div>
 
-        
         <div className="row">
           <div className="col-md-6 mb-3 custom-box">
             <label className="fw-bold form-label">E-mail</label>
-            <input 
-              type="email" 
-              name="email" 
-              className="form-control" 
-              placeholder="Enter email" 
-              onChange={handleChange} 
-              required 
-            />
+            <input type="email" name="user_email" className="form-control" placeholder="Enter email" value={formData.email} onChange={handleChange} required />
           </div>
           <div className="col-md-6 mb-3 custom-box">
             <label className="fw-bold form-label">Job Role</label>
-            <select 
-              name="jobRole" 
-              className="form-control" 
-              onChange={handleChange} 
-              required
-            >
+            <select name="job_role" className="form-control" value={formData.jobRole} onChange={handleChange} required>
               <option value="">Select Your Job Role</option>
               <option value="UX/UI Designer">UX/UI Designer</option>
               <option value="Full Stack Developer">Full Stack Developer</option>
@@ -91,73 +98,37 @@ const JobApplicationForm = () => {
           </div>
         </div>
 
-        
         <div className="mb-3 custom-box-address">
           <label className="fw-bold form-label">Address</label>
-          <textarea 
-            name="address" 
-            className="form-control" 
-            placeholder="Enter address" 
-            onChange={handleChange} 
-            required 
-          />
+          <textarea name="address" className="form-control" placeholder="Enter address" value={formData.address} onChange={handleChange} required />
         </div>
 
-        
         <div className="row">
           <div className="col-md-6 mb-3 custom-box">
             <label className="form-label">City Name</label>
-            <input 
-              type="text" 
-              name="city" 
-              className="form-control" 
-              placeholder="Enter city" 
-              onChange={handleChange} 
-              required 
-            />
+            <input type="text" name="city" className="form-control" placeholder="Enter city" value={formData.city} onChange={handleChange} required />
           </div>
           <div className="col-md-6 mb-3 custom-box">
             <label className="form-label">Mobile Number</label>
-            <input 
-              type="text" 
-              name="mobilenumber" 
-              className="form-control" 
-              placeholder="Mobile number" 
-              onChange={handleChange} 
-              required 
-            />
+            <input type="text" name="phone" className="form-control" placeholder="Mobile number" value={formData.mobilenumber} onChange={handleChange} required />
           </div>
         </div>
 
-        
         <div className="row">
           <div className="col-md-6 mb-3 custom-box">
             <label className="form-label">Date</label>
-            <input 
-              type="date" 
-              name="date" 
-              className="form-control" 
-              onChange={handleChange} 
-              required 
-            />
+            <input type="date" name="date" className="form-control" value={formData.date} onChange={handleChange} required />
           </div>
           <div className="col-md-6 mb-3 custom-box">
-            <label className="form-label">Resume Drive link<span className="form-label-text">(General access Anyone with the link)</span></label>
-            <input 
-              type="link" 
-              name="resumelink"
-              className="form-control"
-              placeholder="google drive link" 
-              onChange={handleChange}
-
-              required 
-            />
+            <label className="form-label">
+              Resume Drive link <span className="form-label-text">(General access Anyone with the link)</span>
+            </label>
+            <input type="link" name="drivelink" className="form-control" placeholder="Google Drive link" value={formData.resumelink} onChange={handleChange} required />
           </div>
         </div>
 
-        {/* Submit Button */}
         <div className="d-flex justify-content-center py-5">
-          <Link to="/jobappsuccess"><button type="submit" className="btn-color-submit">Submit</button></Link>
+          <button type="submit" className="btn-color-submit">Submit</button>
         </div>
       </form>
     </div>
@@ -165,4 +136,5 @@ const JobApplicationForm = () => {
 };
 
 export default JobApplicationForm;
+
 

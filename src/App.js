@@ -22,10 +22,12 @@ import Gamedeveloperdesign from './Gamedeveloperdesign';
 import Privacypolicy from "./Privacypolicy";
 import Termsandconditions from "./Termsandconditions";
 import JobAppSuccess from "./Jobappsuccess";
+import ScrollTop from "./scrollTop";
 
 const App = () => {
   return (
     <Router>
+       <ScrollTop />
       <div>
         <Navbar />
         <Container className="my-4">
