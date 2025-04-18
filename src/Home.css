@@ -274,6 +274,12 @@
 .home-link {
   text-decoration: none;
 }
+@media (max-width:300px) {
+  .dropquick-image {
+    padding-top: 30px;
+  }
+}
+
 @media (max-width: 768px) {
     .our-projects-heading,
     .our-projects-heading-projects {

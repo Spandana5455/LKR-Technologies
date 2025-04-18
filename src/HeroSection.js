@@ -15,7 +15,8 @@ const HeroSection = () => {
         <p className="hero-section-body">we deliver intelligent, secure, and scalable IT systems designed to 
           <br/>move with your business-so you can focus on leading,
           <br/>not managing tech.</p>
-          <Link to="/contact"><button className="get-in-touch-button">Get in Touch</button></Link>
+          <br/>
+          <Link to="/contact" className="get-in-touch-link"><button className="get-in-touch-button">Get in Touch</button></Link>
         </div>
 
         <div className="col-md-6">
