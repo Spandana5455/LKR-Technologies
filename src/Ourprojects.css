@@ -67,6 +67,13 @@
     align-items: center;
     padding-top: 35px;
 }
+.hostel-pg-image {
+    margin-left: 170px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 35px;
+}
 
 @media (max-width: 768px) {
 
@@ -201,6 +208,18 @@
         max-width: 300px;
         height: auto;
     }
+    .suitsnsalon-image {
+        margin-left: 0;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+    .hostel-pg-image {
+        margin-left: 0;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
 
     .hostel-text,
     .hostel-start-text {
@@ -255,8 +274,7 @@
     }
 
     .suitsnsalon-image {
-        margin-top: -185%;
-
+        margin-top: -135%;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
@@ -264,4 +282,123 @@
         height: auto;
     }
 
+}
+
+
+@media (max-width: 768px) {
+    .suitsnsalon-image {
+        margin-top: -120% !important;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        display: block;
+    }
+    .hostel-pg-image {
+        margin-top: -100% !important;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        display: block;
+    }
+    .dropquick-image {
+        margin-top: -90% !important;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        display: block;
+    }
+}
+@media (max-width: 572px){
+    .suitsnsalon-image {
+        margin-top: -120% !important;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        display: block;
+    }
+    .hostel-pg-image {
+        margin-top: -85% !important;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        display: block;
+    }
+    .dropquick-image {
+        margin-top: -75% !important;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        display: block;
+    }
+}
+@media (max-width: 480px) {
+    .suitsnsalon-image {
+        margin-top: -150% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 100% !important;
+        max-width: 350px !important;
+        height: auto !important;
+        display: block !important;
+    }
+    .hostel-pg-image {
+        margin-top: -115% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 100% !important;
+        max-width: 350px !important;
+        height: auto !important;
+        display: block !important;
+    }
+    .dropquick-image {
+        margin-top: -105% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 100% !important;
+        max-width: 350px !important;
+        height: auto !important;
+        display: block !important;
+    }
+}
+
+@media (max-width: 380px) {
+    .suitsnsalon-image {
+        margin-top: -225% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 100% !important;
+        max-width: 350px !important;
+        height: auto !important;
+        display: block !important;
+    }
+    .hostel-pg-image {
+        margin-top: -175% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 100% !important;
+        max-width: 350px !important;
+        height: auto !important;
+        display: block !important;
+    }
+    .dropquick-image {
+        margin-top: -160% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 100% !important;
+        max-width: 350px !important;
+        height: auto !important;
+        display: block !important;
+    }
 }

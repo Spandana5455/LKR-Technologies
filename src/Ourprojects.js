@@ -44,18 +44,12 @@ const Ourprojects = () => {
           <img src={lebestowimg} className="hostel-image" alt="hostel"/>
         </div>
         <div className="col-md-6">
-  <p className="hostel-text">
-    <span className="hostel-start-text">Le Bestow </span> is a lifestyle-driven co-living website that offers a seamless, community-first living experience. 
-    Blending luxury, prime location, and everyday convenience, it allows users to explore fully 
-    furnished apartments, enjoy freshly prepared homely Food, and connect with like-minded 
-    individuals-all within a single, intuitive digital ecosystem.<p>[Check it out: <a href="https://lebestow.com" target="_blank" rel="noopener noreferrer">https://lebestow.com</a>]</p>  
-    
-    <br />
-   
-  </p>
-</div>
-
-
+          <p className="hostel-text"><span className="hostel-start-text">Le Bestow </span> is a lifestyle-driven co-living website that offers a seamless, community-first living experience.
+          Blending luxury, prime location, and everyday convenience, it allows users to explore fully furnished apartments, enjoy freshly prepared homely Food, and connect with 
+          like-minded individuals-all within a single, intuitive digital ecosystem.
+          <p>[Check it out: <a href="https://lebestow.com" target="_blank" rel="noopener noreferrer">https://lebestow.com</a>]</p>
+          </p>
+        </div>
       </div>
 
       <div className="row pt-4">
@@ -67,16 +61,16 @@ const Ourprojects = () => {
           </p>
         </div>
         <div className="col-md-6">
-          <img src={suitsnsalon} className="suitsnsalon-image" alt="dropquick"/>
+          <img src={suitsnsalon} className="suitsnsalon-image" alt="suitsnsalon"/>
         </div>
       </div>
 
       <div className="row pt-4">
         <div className="col-md-6">
-          <img src={leairaimg} className="hostel-image" alt="hostel"/>
+          <img src={leairaimg} className="rummyludo-image" alt="leaira"/>
         </div>
         <div className="col-md-6">
-          <p className="hostel-text"><span className="hostel-start-text">Leaira events </span> A vibrant event management Website crafted to reflect elegance and creativity. This platform captures the 
+          <p className="rummyludo-text"><span className="rummyludo-start-text">Leaira events </span> A vibrant event management Website crafted to reflect elegance and creativity. This platform captures the 
           essence of event planning with a visually appealing design and seamless navigation effectively showcasing services, experiences, and celebrations.
           <p>[Check it out: <a href="https://leairaevents.com" target="_blank" rel="noopener noreferrer">https://leairaevents.com</a>]</p>
           </p>
@@ -91,19 +85,19 @@ const Ourprojects = () => {
           </p>
         </div>
         <div className="col-md-6">
-          <img src={hostel} className="dropquick-image" alt="dropquick"/>
+          <img src={hostel} className="hostel-pg-image" alt="hostel-pg"/>
         </div>
       </div>
 
       <div className="row pt-4">
         <div className="col-md-6">
-          <img src={importsexports} className="hostel-image" alt="hostel"/>
+          <img src={importsexports} className="rummyludo-image" alt="importsexports"/>
         </div>
         <div className="col-md-6">
-          <p className="hostel-text"><span className="hostel-start-text">Imports & Exports </span> A streamlined imports and exports consulting website designed to simplify the process of trading 
+          <p className="rummyludo-text"><span className="rummyludo-start-text">Imports & Exports </span> A streamlined imports and exports consulting website designed to simplify the process of trading 
           goods between China and India. The site offers a clear, user-friendly experience focused on cost efficiency, compliance, and smooth cross-border trade. it guide users 
           through every step of the process ensuring clarity and confidence in international sourcing.
-          <p>[Check it out: <a href="https://leairaevents.com" target="_blank" rel="noopener noreferrer">https://www.lkrimportsexports.com/</a>]</p>
+          <p>[Check it out: <a href="https://www.lkrimportsexports.com/" target="_blank" rel="noopener noreferrer">https://www.lkrimportsexports.com/</a>]</p>
           </p>
         </div>
       </div>
