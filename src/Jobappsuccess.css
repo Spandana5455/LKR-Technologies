@@ -1,4 +1,4 @@
-.sucess-container {
+.success-container {
     position: relative;
     height: 100vh; 
     display: flex;
@@ -8,15 +8,15 @@
     overflow: hidden;
 }
   
-.sucess-container h3,
-.sucess {
+.success-container h3,
+.success {
     opacity: 0;
     transform: translateY(100vh); 
     animation: slideFromBottom 3s ease-out forwards;
 }
   
   
-.sucess {
+.success {
     animation-delay: 0.8s;
     width: 80px;
     height: auto;

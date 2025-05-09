@@ -1,16 +1,15 @@
 .navbar-section {
-    background-image: url('./images/navbg.png'); 
+    background-image: linear-gradient(to right, black , #CA2127);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    height: 200px; 
+    height: 100px; 
     padding: 0;
     margin: 0;
     position: relative;
     z-index: 10;
 }
 .section-after-navbar {
-    margin-top: -60px; 
     padding-top: 0;
     position: relative;
     z-index: 1;
@@ -19,13 +18,13 @@
     height: 70px;
     width: auto;
     margin-right: 20px;
-    margin-left: -40px; 
-    margin-top: 15px;
+    margin-left: 0px; 
+    margin-top: 5px;
 }
 
 .navbar-nav {
     display: flex;
-    gap: 4rem;
+    gap: 1.5rem;
     align-items: center;
 }
   
@@ -39,13 +38,14 @@
 .nav-item .btn {
     padding: 0.4rem 0.8rem;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 24px;
     color: #CA2127;
     background-color: white;
     border: 1px solid #fff;
     transition: all 0.3s ease;
     padding-left: 20px;
     padding-right: 20px;
+    margin-right: -25px;
 }
   
 .nav-item .btn:hover {
@@ -60,27 +60,6 @@
     text-decoration: none;
 }
 
-.nav-item .nav-link::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -5px; 
-    width: 100%;
-    height: 3px;
-    background-color: #CA2127;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.5s ease;
-}
-
-.nav-item .nav-link:hover::after {
-    transform: scaleX(1);
-}
-
-.nav-item .nav-link.active::after {
-    transform: scaleX(1);
-}
-
 .navbar-toggler {
   border: none;
   background-color: transparent;
@@ -90,6 +69,34 @@
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   width: 30px;
   height: 30px;
+}
+.navbar .dropdown-menu {
+  position: absolute !important;
+  z-index: 9999 !important;
+  border: 1px solid #000;
+  border-radius: 5px ;
+  margin: 0 !important;
+  visibility: visible;
+  opacity: 1;
+  transform: none;
+  background-color: #fff;
+}
+
+.vertical-dropdown .dropdown-menu {
+  white-space: normal !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  width: auto;
+}
+
+.vertical-dropdown .dropdown-item {
+  font-size: 15px;
+  padding: 5px 5px;
+  font-weight: 400;
+}
+.vertical-dropdown .dropdown-item:hover {
+  background-color: #c23237;
+  color: #fff;
 }
 
 @media (max-width: 1284px) {
@@ -111,17 +118,8 @@
     padding: 0.3rem 1rem;
   }
 
-  .navbar-section {
-    height: 180px;
-    clip-path: ellipse(100% 88% at 50% 18%);
-  }
 }
 @media (min-width: 991px) and (max-width: 1199px) {
-  .navbar-section {
-    height: 180px;
-    clip-path: ellipse(100% 88% at 50% 18%);
-    background-position: center top;
-  }
 
   .logo-image {
     height: 50px;
@@ -143,12 +141,6 @@
   }
 }
 @media (min-width: 800px) and (max-width: 990px) {
-  .navbar-section {
-    height: auto;
-    clip-path: ellipse(100% 85% at 50% 50%);
-    padding-bottom: 1.5rem;
-    background-position: center;
-  }
 
   .logo-image {
     height: 40px;
@@ -177,12 +169,7 @@
   }
 }
 @media (min-width: 768px) and (max-width: 800px) {
-  .navbar-section {
-    height: auto;
-    padding-bottom: 1.5rem;
-    clip-path: ellipse(100% 80% at 50% 40%);
-    background-position: center;
-  }
+
 
   .logo-image {
     height: 40px;
@@ -211,12 +198,6 @@
   }
 }
 @media (min-width: 768px) and (max-width: 800px) {
-  .navbar-section {
-    height: auto;
-    padding-bottom: 1.5rem;
-    clip-path: ellipse(100% 80% at 50% 40%);
-    background-position: center;
-  }
 
   .logo-image {
     height: 40px;
@@ -245,12 +226,7 @@
   }
 }
 @media (min-width: 572px) and (max-width: 768px) {
-  .navbar-section {
-    height: auto;
-    padding-bottom: 1.5rem;
-    clip-path: ellipse(100% 75% at 50% 40%);
-    background-position: center;
-  }
+
 
   .logo-image {
     height: 30px;
@@ -281,12 +257,7 @@
 }
 
 @media (max-width: 571.98px) {
-  .navbar-section {
-    height: auto;
-    padding-bottom: 1.2rem;
-    clip-path: ellipse(100% 70% at 50% 35%);
-    background-position: center;
-  }
+ 
 
   .logo-image {
     height: 26px;

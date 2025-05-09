@@ -64,7 +64,7 @@ const ContactUs = () => {
         </h1>
       </div>
 
-      <div className="container py-5">
+      <div className="container">
         <div className="row">
           {/* Left Column - Info */}
           <div className="col-md-6 mb-4 pt-5">

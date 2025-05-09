@@ -5,6 +5,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     padding-left: 400px;
+    margin-top: -30px;
 }
 .info-heading {
     font-size: 40px;
@@ -58,7 +59,7 @@ body, html {
     width: 100vw;             
     position: relative;
     overflow: hidden;
-    margin-top: -145px;       
+    margin-top: -30px !important;       
     margin-left: calc(-50vw + 50%); 
 }
   

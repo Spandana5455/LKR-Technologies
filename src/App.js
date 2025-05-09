@@ -23,6 +23,10 @@ import Privacypolicy from "./Privacypolicy";
 import Termsandconditions from "./Termsandconditions";
 import JobAppSuccess from "./Jobappsuccess";
 import ScrollTop from "./scrollTop";
+import ITtrainig from "./ITtraining";
+import ITDevelopment from "./ITDevelopment";
+import ITStaffing from "./ITStaffing";
+import Career from "./Career";
 
 const App = () => {
   return (
@@ -35,6 +39,10 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/clients" element={<Clients />} />
             <Route path="/services" element={<Ourservices />} />
+            <Route path="/ittraining" element={<ITtrainig />} />
+            <Route path="/itdevelopment" element={<ITDevelopment />} />
+            <Route path="/itstaffing" element={<ITStaffing />} />
+            <Route path="/career" element={<Career />} />
             <Route path="/jobapplicationform" element={<Jobapplicationform />} />
             <Route path="/ourprojects" element={<Ourprojects />} />
             <Route path="/contact" element={<Contactus />} />

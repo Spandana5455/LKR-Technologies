@@ -4,9 +4,9 @@ import "./Jobappsuccess.css";
 
 const JobAppSuccess = () => {
     return (
-        <div className="sucess-container">
+        <div className="success-container">
             <h3>Your Job Application Was Submitted Successfully</h3>
-            <img className="sucess" src={successicon} alt="success-icon" />
+            <img className="success" src={successicon} alt="success-icon" />
         </div>
     );
 };

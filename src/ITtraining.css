@@ -1,0 +1,216 @@
+.it-training-section {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;                
+    z-index: 1;                       
+    overflow: visible !important;
+    width: 100vw;             
+    position: relative;
+    overflow: hidden;
+    margin-top: -30px;      
+    margin-left: calc(-50vw + 50%); 
+}
+
+.it-training-heading {
+    font-size: 64px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 90px;
+}
+
+.it-training-body {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.it-training-buttoncustom {
+    background-color: #CA2127;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 25px;
+    border: #CA2127;
+    margin-top: 50px;
+}
+
+.it-training-point-one {
+    font-size: 24px;
+    font-weight: 300;
+    background-image: linear-gradient( #CA2127, #641013);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.it-training-point-two {
+    font-size: 24px;
+    font-weight: 300;
+    background-image: linear-gradient( #CA2127, #641013);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-top: -20px;
+}
+
+.it-training-whychoose-section {
+    background-image: url('./images/whyittrainingbg.png');
+    background-size: cover;
+    min-height: 100vh; 
+    display: flex;
+    position: relative;                
+    z-index: 1;                       
+    overflow: visible !important;
+    width: 100vw;             
+    position: relative;
+    overflow: hidden;     
+    margin-left: calc(-50vw + 50%); 
+}
+
+.it-training-whychoose-heading {
+    font-size: 40px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #CA2127, #FFFFFF);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-left: 600px;
+    margin-top: 15px;
+}
+
+.it-training-whychoose-card {
+    background-color: #fff;
+    width: 1250px;
+    height: 580px;
+    border-radius: 50px;
+    margin-top: 80px;
+    margin-left: -770px;
+}
+
+.it-training-whychoose-pointstart {
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-left: 25px;
+    margin-right: -180px;
+}
+.it-training-whychoose-points {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 3px;
+    padding-left: 25px;
+    margin-right: -180px;
+}
+
+.it-training-whychoose-body {
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 25px;
+    margin-right: -230px;
+    padding-top: 10px;
+}
+
+.it-training-whychoose-img {
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.it-training-courses-heading {
+    font-size: 40px;
+    font-weight: 600;
+    color: #CA2127;
+}
+
+.it-training-courses-heading-two {
+    font-size: 40px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #CA2127, #666666);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.it-training-courses-body {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.courses-card {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 2px   #CA212740;
+}
+
+.courses-duration {
+    font-size: 16px;
+    font-weight: 500;
+    color: #070303;
+    margin-left: 50px;
+}
+
+.courses-fee {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000 !important;
+    margin-right: 50px;
+}
+
+.courses-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    margin-left: 50px;
+}
+
+.courses-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin-left: 50px;
+}
+
+.courses-line {
+    border: 1px solid #EFEBFF;
+}
+
+.courses-location {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin-left: 50px;
+}
+
+.courses-bookbutton {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    background-color:#CA2127;
+    margin-left: 50px;
+}
+
+.courses-bookbutton:hover {
+    color: #fff;
+    background-color:#CA2127;
+}
+
+.courses-bookbutton:active:focus {
+    color: #fff;
+    background-color:#CA2127;
+}
+
+.hiring-partners-heading {
+    font-size: 64px;
+    font-weight: 300;
+    background-image: linear-gradient(to right, #CA2127, #000000);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding-bottom: 40px;
+}
+
+.Tcsimg {
+    margin-left: 250px;
+}

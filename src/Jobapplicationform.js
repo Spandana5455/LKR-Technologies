@@ -73,11 +73,11 @@ const JobApplicationForm = () => {
         <div className="row">
           <div className="col-md-6 mb-3 custom-box">
             <label className="fw-bold form-label">First Name</label>
-            <input type="text" name="first_name" className="form-control" placeholder="Enter first name" value={formData.firstName} onChange={handleChange} required />
+            <input type="text" name="first_name" className="form-control" placeholder="Enter first name" value={formData.first_name} onChange={handleChange} required />
           </div>
           <div className="col-md-6 mb-3 custom-box">
             <label className="fw-bold form-label">Last Name</label>
-            <input type="text" name="last_name" className="form-control" placeholder="Enter last name" value={formData.lastName} onChange={handleChange} required />
+            <input type="text" name="last_name" className="form-control" placeholder="Enter last name" value={formData.last_name} onChange={handleChange} required />
           </div>
         </div>
 
@@ -90,15 +90,17 @@ const JobApplicationForm = () => {
             <label className="fw-bold form-label">Job Role</label>
             <select name="job_role" className="form-control" value={formData.jobRole} onChange={handleChange} required>
               <option value="">Select Your Job Role</option>
-              <option value="UX/UI Designer">UX/UI Designer</option>
-              <option value="Full Stack Developer">Full Stack Developer</option>
-              <option value="Digital Marketing">Digital Marketing</option>
-              <option value="Tele-Calling">Tele-Calling</option>
+              <option value="Accountant">Accountant</option>
+              <option value="Digital marketing">Digital marketing</option>
+              <option value="Business strategy executive">Business Strategy Executive</option>
+              <option value="Mobile App Developer frontend/backend">Mobile App Developer frontend/backend</option>
+              <option value="Business development manager">Business Development Manager</option>
+              <option value="Marketing [sales filed]">Marketing [sales filed]</option>
             </select>
           </div>
         </div>
 
-        <div className="mb-3 custom-box-address">
+        <div className="mb-3 custom-box-address ps-2">
           <label className="fw-bold form-label">Address</label>
           <textarea name="address" className="form-control" placeholder="Enter address" value={formData.address} onChange={handleChange} required />
         </div>

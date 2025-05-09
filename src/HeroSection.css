@@ -9,6 +9,7 @@
     font-size: 64px;
     font-weight: 700;
     background-image: linear-gradient(to right, #CA2127, #666666);
+    padding-bottom: 10px;
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;

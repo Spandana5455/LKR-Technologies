@@ -1,0 +1,30 @@
+.it-development-section {
+    background-image: url('./images/itdevelopmentbg.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    position: relative;                
+    z-index: 1;                       
+    overflow: visible !important;
+    width: 100vw;             
+    position: relative;
+    overflow: hidden;
+    margin-top: -30px;      
+    margin-left: calc(-50vw + 50%); 
+}
+
+.it-development-heading {
+    font-size: 64px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 80px;
+}
+
+.it-development-body {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+}
