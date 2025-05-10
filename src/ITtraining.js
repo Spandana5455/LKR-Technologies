@@ -10,6 +10,7 @@ import Amazon from './images/Amazon.png';
 import Accenture from './images/Accenture.png';
 import Tcs from './images/Tcs.png';
 import Cognizant from './images/Cognizant.png';
+import trainingtickicon from './images/trainingtickicon.png';
 
 const courses = [
     { title: "Python", duration: "3 MONTHS", fees: "25K" },
@@ -46,11 +47,11 @@ const ITtraining = () => {
             <div className='container it-training-whychoose-card'>
                 <div className='row p-4'>
                     <div className='col-md-6'>
-                        <p className='it-training-whychoose-pointstart'>✅ Industry-Ready Curriculum - Designed with input from top companies</p>
-                        <p className='it-training-whychoose-points'>✅ Live Projects & Portfolio Building:</p>
-                        <p className='it-training-whychoose-points'>✅ Mock Interviews & Soft Skills - Be confident, be prepared</p>
-                        <p className='it-training-whychoose-points'>✅ Dedicated Placement Support - We work with hiring partners until you're hired</p>
-                        <p className='it-training-whychoose-points'>✅ Lifetime Alumni Access - Stay updated, stay ahead</p>
+                        <p className='it-training-whychoose-pointstart'><img src={trainingtickicon} alt='tick' className='me-2' />Industry-Ready Curriculum - Designed with input from top companies</p>
+                        <p className='it-training-whychoose-points'><img src={trainingtickicon} alt='tick' className='me-2' /> Live Projects & Portfolio Building:</p>
+                        <p className='it-training-whychoose-points'><img src={trainingtickicon} alt='tick' className='me-2' /> Mock Interviews & Soft Skills - Be confident, be prepared</p>
+                        <p className='it-training-whychoose-points'><img src={trainingtickicon} alt='tick' className='me-2' /> Dedicated Placement Support - We work with hiring partners until you're hired</p>
+                        <p className='it-training-whychoose-points'><img src={trainingtickicon} alt='tick' className='me-2' /> Lifetime Alumni Access - Stay updated, stay ahead</p>
                         <p className='it-training-whychoose-body'>We measure our success through your success. Join us and become part of our growing list of success stories!</p>
                     </div>
                     <div className='col-md-6'>
@@ -91,8 +92,8 @@ const ITtraining = () => {
         </div>
 
         <div className='container'>
-            <h5 className='hiring-partners-heading text-center'>Our hiring partners</h5>
-            <div className='row'>
+            <h5 className='hiring-partners-heading'>Our hiring partners</h5>
+            <div className='row companiesrow'>
                 <div className='col-md-4'>
                     <img src={capgemini} className='capgeminiimg' alt='capgeminiimg'/>
                 </div>

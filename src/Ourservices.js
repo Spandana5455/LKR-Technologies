@@ -10,7 +10,6 @@ import webdevelopment from './images/webdevelopment.png';
 import gamedeveloper from './images/gamedeveloper.png';
 
 
-
 const serviceData = [
   {
     title: "UI/UX Designer",
@@ -67,8 +66,8 @@ const Ourservices = () => {
     <>
     <div className="mainBox pt-4">
       <div className="heading-container">
-        <h2 className="our-section">Our</h2>
-        <h2 className="service-section">Services</h2>
+        <h2 className="our-section">What</h2>
+        <h2 className="service-section">We Build</h2>
       </div>
 
       <div className="service-grid">

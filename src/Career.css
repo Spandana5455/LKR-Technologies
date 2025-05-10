@@ -47,3 +47,204 @@
     margin-bottom: -10px;
     height: 900px;
 }
+
+.career-hiring-heading {
+    font-size: 40px;
+    font-weight: 700;
+    color: #CA2127;
+}
+
+.career-hiring-heading-two {
+    font-size: 40px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #CA2127, #666666);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.career-hiring-listgroup {
+    border-radius: 15px;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F6F6F8;
+}
+
+.list-group-item {
+  border: 1px solid #E7E8EC;
+  font-size: 16px;
+  padding: 20px 30px;
+}
+
+.career-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+}
+
+.step-icon {
+  color: black;
+  font-size: 35px;
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.career-description {
+    font-size: 32px;
+    font-weight: 300;
+    color: #000;
+    margin-left: auto;
+    margin-right: 180px;
+}
+
+.active-step {
+  background-color: #CA2127;
+  color: white;
+  font-weight: 500;
+}
+
+.active-step .career-title {
+  color: white;
+}
+
+.active-step .step-icon {
+  color: white;
+}
+
+.career-futurestarts {
+    font-size: 104px;
+    font-weight: 900;
+    line-height: 150px;
+}
+
+.career-futurestarts-text {
+    color: #000000;
+    opacity: 20%; 
+}
+
+.career-futurestarts-dot {
+    font-size: 104px;
+    font-weight: 900;
+    color: #CA2127;
+    opacity: 1; 
+}
+
+.career-futureimg {
+    margin-left: -50px;
+}
+
+.careerourmission-heading {
+    font-size: 48px;
+    font-weight: 700;
+    color: #CA2127;
+}
+
+.careerourmission-heading-two {
+    font-size: 48px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #CA2127, #000000);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.careerourmission-body {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+}
+
+.career-applypositions {
+    font-size: 48px;
+    font-weight: 700;
+    color: #CA2127;
+}
+
+.career-applypositions-two {
+    font-size: 48px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #CA2127, #000000);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.career-applypositions-card {
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 2px   #CA212740;
+}
+
+.career-applypositions-year {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.career-applypositions-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    padding-top: 20px;
+}
+
+.career-applypositions-perks {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.career-applypositions-location {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.career-applynow {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    background-color:#CA2127;
+}
+
+.career-applynow:hover {
+    color: #fff;
+    background-color:#CA2127;
+}
+
+.career-applynow:active:focus {
+    color: #fff;
+    background-color:#CA2127;
+}
+
+.career-training-heading {
+    font-size: 40px;
+    font-weight: 700;
+    color: #CA2127;
+}
+
+.career-training-heading-two {
+    font-size: 40px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #CA2127, #000000);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.career-training-text {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    margin-right: 50px;
+    text-align: start;
+    margin-left: 30px;
+}
+
+.career-training-img {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}

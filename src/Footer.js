@@ -47,7 +47,6 @@ const Footer = () => {
                 <div className="footer-section">
                   <p><Link to="/privacy-policy" className="footer-link">Privacy Policy</Link></p>
                   <p><Link to="/terms-conditions" className="footer-link">Terms and Conditions</Link></p>
-                
                 </div>
         
                 <div className="footer-section social-section">
@@ -60,12 +59,9 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-        
               
-              
-        
               <div className="footer-bottom">
-                <p>© 2025 LKR Technologies. All Rights Reserved</p>
+                <p>© 2024 LKR Technologies. All Rights Reserved</p>
               </div>
             </footer>
         </>

@@ -28,3 +28,131 @@
     font-weight: 400;
     color: #fff;
 }
+
+.it-development-whychoose-heading-two {
+    font-size: 40px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #CA2127, #666666);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.it-development-whychoose-heading {
+    font-size: 40px;
+    font-weight: 700;
+    color: #CA2127;
+    text-align: center;
+}
+
+.icon-gap {
+  margin-right: 55px; 
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+}
+
+.it-development-whychoose-pointstart {
+    font-size: 32px;
+    font-weight: 500;
+    color: #000;
+    padding-top: 150px;
+    margin-left: 35px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.it-development-whychoose-points {
+    font-size: 32px;
+    font-weight: 500;
+    color: #000;
+    margin-left: 35px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.it-development-projects-heading {
+    font-size: 40px;
+    font-weight: 700;
+    color: #CA2127;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.it-development-projects-heading-two {
+    font-size: 40px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #CA2127, #666666);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.it-development-projects-title {
+    font-size: 24px;
+    font-weight: 600;
+    background-image: linear-gradient(to bottom, #CA2127, #000000);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.it-development-projects-img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.letsbuild-section {
+    background-image: url('./images/itdevelopmentletsbuildbg.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    min-height: 30vh; 
+    display: flex;
+    align-items: center;
+    position: relative;                
+    z-index: 1;                       
+    overflow: visible !important;
+    width: 100vw;             
+    position: relative;
+    overflow: hidden;    
+    margin-left: calc(-50vw + 50%); 
+}
+
+.letsbuild-heading {
+    font-size: 40px;
+    font-weight: 600;
+    color: #CA2127;
+}
+
+.letsbuild-heading-two {
+    font-size: 40px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #CA2127, #666666);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.letsbuild-body {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.letsbuild-button {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #CA2127;
+    border: #CA2127;
+    padding: 5px 25px;
+    padding-bottom: 8px;
+    border-radius: 25px;
+}
+
