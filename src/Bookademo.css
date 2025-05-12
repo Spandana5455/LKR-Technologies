@@ -1,0 +1,52 @@
+.form-container {
+  background-color: #000;
+  border-radius: 30px;
+  max-width: 600px;
+}
+
+.bookademo-heading {
+    font-size: 48px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #CA2127, #000000);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.bookademo-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.form-box {
+  background-color: #000;
+  color: #fff;
+}
+
+.form-box .form-label {
+  font-weight: bold;
+}
+
+.form-box .form-control,
+.form-box .form-select {
+  background-color: #111;
+  border: 1px solid #333;
+  color: #fff;
+}
+
+.submit-btn {
+  background-color: #CA2127;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.submit-btn:hover {
+  background-color: #CA2127;
+}
+
+.submit-btn:active:focus {
+    background-color: #CA2127;
+    color: #fff;
+}

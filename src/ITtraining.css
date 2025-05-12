@@ -36,6 +36,7 @@
     padding: 10px 25px;
     border: #CA2127;
     margin-top: 50px;
+    text-decoration: none !important;
 }
 
 .it-training-point-one {
@@ -241,4 +242,584 @@
 
 .companiesrow {
      margin-top: 60px;
+}
+
+
+@media (max-width: 1283px) {
+    .it-training-section {
+        margin-top: -30px;
+    }
+    .it-training-heading {
+        font-size: 56px;
+        padding-top: 30px;
+    }
+    .it-training-image {
+        width: 120%;
+        margin-left: -80px;
+    }
+    .it-training-body {
+        font-size: 22px;
+    }
+    .it-training-whychoose-heading {
+        font-size: 36px;
+        margin-left: 450px;
+    }
+    .it-training-whychoose-card {
+        border-radius: 25px; 
+        margin-left: -650px;
+    }
+    .it-training-whychoose-pointstart,
+    .it-training-whychoose-points,
+    .it-training-whychoose-body {
+        font-size: 22px;
+        padding-left: 20px; 
+    }
+    .courses-duration,
+    .courses-title,
+    .courses-line,
+    .courses-text,
+    .courses-location {
+        margin-left: 10px;
+    }
+    .courses-fee {
+        margin-right: 10px;
+    }
+    .courses-bookbutton {
+        margin-left: 35px;
+    }
+    .hiring-partners-heading {
+        font-size: 56px;
+    }
+    .hiring-partners-heading::after {
+        width: 450px;
+    }
+}
+
+/* For screens 1198px and below (targets 991px - 1198px range and smaller) */
+@media (max-width: 1198px) {
+     .it-training-section {
+        margin-top: -30px;
+    }
+    .it-training-heading {
+        font-size: 50px;
+        padding-top: 30px;
+    }
+    .it-training-body {
+        font-size: 20px;
+    }
+    .it-training-image {
+        width: 120%;
+        margin-left: -50px;
+    }
+    .it-training-whychoose-heading {
+        font-size: 32px;
+        margin-left: 400px;
+    }
+    .it-training-whychoose-card {
+        padding: 20px; 
+        margin-left: -570px;
+    }
+    .it-training-whychoose-img {
+        margin-left: 70px;
+    }
+    .it-training-whychoose-pointstart,
+    .it-training-whychoose-points,
+    .it-training-whychoose-body {
+        font-size: 20px;
+        padding-left: 15px;
+        margin-right: -70px;
+    }
+    .it-training-whychoose-pointstart {
+        padding-top: 20px;
+    }
+    .it-training-courses-heading,
+    .it-training-courses-heading-two {
+        font-size: 36px;
+    }
+    .it-training-courses-body {
+        font-size: 20px;
+    }
+    .courses-title {
+        font-size: 22px;
+    }
+    .hiring-partners-heading {
+        font-size: 50px;
+    }
+    .hiring-partners-heading::after {
+        width: 400px;
+    }
+    .Cognizantimg {
+        margin-left: -50px;
+    }
+}
+
+/* For screens 990px and below (targets 800px - 990px range and smaller, Bootstrap lg breakpoint) */
+@media (max-width: 990px) {
+    .it-training-section {
+        min-height: 80vh;
+        margin-top: -30px;
+    }
+    .it-training-heading {
+        font-size: 44px;
+        margin-left: -70px;
+    }
+    .it-training-body {
+        font-size: 18px;
+        margin-left: -70px;
+    }
+     .it-training-image {
+        width: 160%;
+        margin-left: -70px;
+    }
+    .it-training-buttoncustom {
+        margin-top: 30px;
+        padding: 8px 20px;
+    }
+    .it-training-point-one,
+    .it-training-point-two {
+        font-size: 20px;
+        padding-left: 15px; 
+        padding-right: 15px;
+    }
+    .it-training-whychoose-section {
+        min-height: 80vh; 
+    }
+    .it-training-whychoose-heading {
+        font-size: 28px;
+        margin-left: 400px;
+    }
+    .it-training-whychoose-card {
+        border-radius: 25px;
+        margin-left: -500px;
+        min-width:  800px;
+    }
+    .it-training-whychoose-pointstart,
+    .it-training-whychoose-points,
+    .it-training-whychoose-body {
+        font-size: 18px;
+    }
+    .it-training-whychoose-img {
+        max-width: 100%; 
+        margin-left: 10px;
+    }
+    .it-training-courses-heading,
+    .it-training-courses-heading-two {
+        font-size: 32px;
+    }
+    .it-training-courses-body {
+        font-size: 18px;
+    }
+    /* Course card content adjustments */
+    .courses-card {
+        width: 200px;
+    }
+    .card-content-wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .courses-duration, .courses-fee {
+        font-size: 14px;
+    }
+    .courses-title {
+        font-size: 20px;
+    }
+    .courses-text, .courses-location {
+        font-size: 14px;
+    }
+    .courses-bookbutton {
+        font-size: 18px; 
+        padding: px 15px; 
+        margin-left: 20px;
+    }
+    .hiring-partners-heading {
+        font-size: 44px;
+    }
+    .hiring-partners-heading::after {
+        width: 350px;
+    }
+    .companiesrow img, .row.pt-4 img {
+      max-width: 70%; 
+      margin-left: 50px;
+    }
+  
+}
+
+/* For screens 799px and below (targets 768px - 799px range and smaller) */
+/* This is very close to 767px, so changes might be minor or merged with 767px */
+@media (max-width: 799px) {
+    /* Bootstrap col-md-* classes will stack below 768px.
+       So the hero section and why-choose-us internal columns are about to stack. */
+        .it-training-section {
+        margin-top: -30px;
+    }
+    .it-training-heading {
+        margin-top: -30px;
+        text-align: center; 
+        margin-left: 10px;
+    }
+    .it-training-body {
+        text-align: center;
+        margin-left: 10px;
+    }
+    .it-training-section .col-md-6:first-child { /* Target the text column */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center button */
+    }
+    .it-training-image {
+        margin-top: -30px; /* Add space when stacked */
+        max-width: 120%;
+        display: block;
+        margin-left: -30px;
+        margin-right: auto;
+    }
+    .it-training-whychoose-heading {
+        font-size: 28px;
+        margin-left: 300px;
+    }
+    .it-training-whychoose-card {
+        border-radius: 25px;
+        margin-left: -470px;
+        min-width:  500px;
+    }
+    .it-training-whychoose-img {
+        max-width: 100%; 
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+     .it-training-whychoose-card .row > div[class^="col-"] { /* Target columns in whychoose card */
+        text-align: center; /* Center text content */
+    }
+    .it-training-whychoose-pointstart,
+    .it-training-whychoose-points,
+    .it-training-whychoose-body {
+        font-size: 18px;
+        padding-left: 5px; /* Reduce padding if text is centered */
+        text-align: left; /* Keep points left-aligned for readability, or center if preferred */
+    }
+     .it-training-whychoose-card .col-md-6:first-child { /* Text part */
+        margin-bottom: 30px; /* Space when stacked above image */
+    }
+}
+
+
+/* For screens 767px and below (targets 572px - 767px range and smaller, Bootstrap md breakpoint) */
+@media (max-width: 767px) {
+    .it-training-section {
+        min-height: auto; /* Adjust height for smaller screens */
+        padding-top: 30px; /* Adjust padding */
+        padding-bottom: 30px;
+        margin-top: -30px; /* Adjust if overlapping a smaller navbar */
+    }
+    .it-training-heading {
+        font-size: 36px;
+        padding-top: 20px; /* Further reduce padding */
+    }
+    .it-training-body {
+        font-size: 16px;
+    }
+    .it-training-image {
+        padding-top: 40px;
+        margin-left: 30px;
+        width: 80%;
+    }
+    .it-training-buttoncustom {
+        width: auto; /* Allow button to size based on content or set specific width */
+        display: block; /* Make it a block to center with margin auto */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .it-training-point-one,
+    .it-training-point-two {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .it-training-whychoose-section {
+        min-height: 110vh; 
+    }
+    .it-training-whychoose-heading {
+        font-size: 24px;
+        margin-left: 250px;
+    }
+    .it-training-whychoose-card {
+        border-radius: 25px;
+        margin-left: -350px;
+        min-width:  500px;
+        min-height: 850px;
+    }
+    .it-training-whychoose-img {
+        width: 80%;
+        margin-top: -30px;
+        margin-left: -10px;
+    }
+    .it-training-whychoose-pointstart,
+    .it-training-whychoose-points,
+    .it-training-whychoose-body {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+     .it-training-whychoose-points img,
+     .it-training-whychoose-pointstart img {
+        width: 16px; 
+        height: 16px;
+    }
+    .it-training-whychoose-img {
+        max-width: 100%; /* Image can take more space now */
+    }
+    .it-training-courses-heading,
+    .it-training-courses-heading-two {
+        font-size: 28px;
+    }
+    .it-training-courses-body {
+        font-size: 16px;
+    }
+    /* Course cards will be 2 per row (sm={6}) then 1 per row (xs={12}) */
+    .courses-card {
+        margin-bottom: 20px; /* Ensure space between stacked cards if not handled by Col */
+    }
+    .courses-bookbutton {
+        width: 100%; /* Make button full width in card */
+        font-size: 16px;
+    }
+    .hiring-partners-heading {
+        font-size: 36px;
+    }
+    .hiring-partners-heading::after {
+        width: 300px;
+    }
+    .companiesrow img, .row.pt-4 img {
+      max-width: 60%; /* Smaller images, they will stack now */
+    }
+    .companiesrow {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .row.pt-4 { /* Second row of company logos */
+        padding-top: 0 !important; 
+        text-align: center;/* Remove top padding if they are stacking closely */
+    }
+}
+
+/* For screens 571px and below (targets 480px - 571px range and smaller, Bootstrap sm breakpoint) */
+@media (max-width: 571px) {
+    .it-training-heading {
+        font-size: 30px;
+    }
+    .it-training-body {
+        font-size: 15px;
+    }
+    .it-training-point-one,
+    .it-training-point-two {
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .it-training-whychoose-section {
+        min-height: 110vh; 
+    }
+    .it-training-whychoose-heading {
+        font-size: 22px;
+        margin-left: 150px;
+    }
+    .it-training-whychoose-card {
+        border-radius: 25px;
+        margin-left: -300px;
+        min-height: 800px;
+        width: 80px;
+    }
+    .it-training-whychoose-img {
+        width: 80%;
+        margin-top: -30px;
+        margin-left: -10px;
+    }
+    .it-training-whychoose-pointstart,
+    .it-training-whychoose-points,
+    .it-training-whychoose-body {
+        font-size: 14px;
+        margin-right: -30px;
+    }
+    .it-training-courses-heading,
+    .it-training-courses-heading-two {
+        font-size: 24px;
+    }
+    .it-training-courses-body {
+        font-size: 15px;
+    }
+    /* Course cards are now 1 per row (xs={12}) */
+    .courses-card {
+        width: 420px;
+    }
+    .card-content-wrapper {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .courses-duration, .courses-fee {
+        font-size: 13px;
+    }
+    .courses-title {
+        font-size: 18px;
+    }
+    .courses-text, .courses-location {
+        font-size: 13px;
+    }
+    .courses-bookbutton {
+        padding: 6px 12px;
+        margin-left: 50px;
+    }
+    .hiring-partners-heading {
+        font-size: 30px;
+    }
+    .hiring-partners-heading::after {
+        width: 250px;
+    }
+    .companiesrow img, .row.pt-4 img {
+      max-width: 50%; 
+      margin-left: -30px;
+    }
+}
+
+/* For screens 479px and below (targets 380px - 479px range and smaller) */
+@media (max-width: 479px) {
+    .it-training-heading {
+        font-size: 26px;
+        padding-top: 10px;
+    }
+    .it-training-body {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .it-training-buttoncustom {
+        font-size: 14px;
+        padding: 6px 15px;
+        margin-top: 20px;
+    }
+    .it-training-whychoose-section {
+        min-height: 100vh; 
+    }
+    .it-training-whychoose-heading {
+        font-size: 20px;
+        margin-left: 120px;
+    }
+    .it-training-whychoose-card {
+        border-radius: 25px;
+        margin-left: -230px;
+        min-height: 700px;
+        min-width: 320px;
+    }
+    .it-training-whychoose-img {
+        width: 80%;
+        margin-top: -30px;
+        margin-left: -10px;
+    }
+    .it-training-point-one,
+    .it-training-point-two {
+        font-size: 14px;
+    }
+    .it-training-whychoose-pointstart,
+    .it-training-whychoose-points,
+    .it-training-whychoose-body {
+        font-size: 13px;
+        padding-left: 10px; 
+    }
+    .it-training-courses-heading,
+    .it-training-courses-heading-two {
+        font-size: 22px;
+    }
+    .it-training-courses-body {
+        font-size: 14px;
+    }
+    .courses-card {
+        width: 300px;
+    }
+    .courses-duration span, .courses-fee span { /* Target the "DURATION" / "FEES" text */
+        font-size: 10px; /* Make the label smaller */
+    }
+    .courses-bookbutton {
+        margin-left: 30px;
+    }
+    .hiring-partners-heading {
+        font-size: 26px;
+    }
+    .hiring-partners-heading::after {
+        width: 200px;
+    }
+}
+
+/* For screens 379px and below (targets 275px - 379px range and smaller) */
+@media (max-width: 379px) {
+    .it-training-heading {
+        font-size: 22px;
+    }
+    .it-training-body {
+        font-size: 13px;
+    }
+    .it-training-point-one,
+    .it-training-point-two {
+        font-size: 13px;
+        margin-top: -10px; /* Adjust if overlapping */
+    }
+    .it-training-point-one {
+        padding-top: 10px; /* Original has pt-4 */
+    }
+    .it-training-point-two {
+        padding-bottom: 10px; /* Original has pb-4 */
+    }
+    .it-training-whychoose-section {
+        min-height: 100vh; 
+    }
+    .it-training-whychoose-heading {
+        font-size: 18px;
+        margin-left: 100px;
+    }
+    .it-training-whychoose-card {
+        border-radius: 25px;
+        margin-left: -210px;
+        min-height: 650px;
+        min-width: 280px;
+    }
+    .it-training-whychoose-img {
+        width: 80%;
+        margin-top: -30px;
+        margin-left: -10px;
+    }
+    .it-training-whychoose-pointstart,
+    .it-training-whychoose-points,
+    .it-training-whychoose-body {
+        font-size: 12px;
+    }
+    .it-training-courses-heading,
+    .it-training-courses-heading-two {
+        font-size: 20px;
+    }
+    .it-training-courses-body {
+        font-size: 13px;
+    }
+    .courses-card {
+        width: 250px;
+        margin-left: -10px;
+    }
+    .courses-title {
+        font-size: 16px;
+    }
+    .courses-text, .courses-location, .courses-duration, .courses-fee {
+        font-size: 12px;
+    }
+    .courses-bookbutton {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .hiring-partners-heading {
+        font-size: 22px;
+    }
+    .hiring-partners-heading::after {
+        width: 150px;
+        height: 3px; 
+    }
+    .companiesrow img, .row.pt-4 img {
+      max-width: 80%; 
+      margin-left: 20px;
+    }
+    .it-training-buttoncustom {
+        text-decoration: none !important;
+    }
 }

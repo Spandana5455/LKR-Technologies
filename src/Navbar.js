@@ -23,7 +23,7 @@ const Navbar = () => {
     setOpenDropdown(openDropdown === id ? null : id);
   };
   const isMobile = window.innerWidth < 992;
-
+  
   return (
     <div className="navbar-section">
       <nav className="navbar navbar-expand-lg container-fluid">

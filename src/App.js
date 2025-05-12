@@ -27,6 +27,7 @@ import ITtrainig from "./ITtraining";
 import ITDevelopment from "./ITDevelopment";
 import ITStaffing from "./ITStaffing";
 import Career from "./Career";
+import Bookademo from "./Bookademo";
 
 const App = () => {
   return (
@@ -58,6 +59,7 @@ const App = () => {
             <Route path="/privacy-policy" element={<Privacypolicy />} />
             <Route path="/terms-conditions" element={<Termsandconditions />} />
             <Route path="/jobappsuccess" element={<JobAppSuccess />} />
+            <Route path="/bookademo" element={<Bookademo />} />
           </Routes>
         </Container>
         <Footer />

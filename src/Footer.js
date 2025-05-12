@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 import logo from "./images/logo.png";
 import fb from './images/fb.png';
 import instagram from './images/instagram.png';
-import twitter from './images/twitter.png';
 import linkedin from './images/linkedin.png';
 import './Footer.css';
 
@@ -54,7 +53,6 @@ const Footer = () => {
                   <div className="social-icons">
                     <img src={fb} alt="face-book" />
                     <img src={instagram} alt="instagram" />
-                    <img src={twitter} alt="twitter" />
                     <img src={linkedin} alt="linkedin" />
                   </div>
                 </div>

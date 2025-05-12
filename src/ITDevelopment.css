@@ -98,6 +98,7 @@
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
+    padding-bottom: 10px;
 }
 
 .it-development-projects-img {
@@ -156,3 +157,332 @@
     border-radius: 25px;
 }
 
+@media (max-width: 1283px) {
+    .it-development-heading {
+        font-size: 58px;
+        line-height: 74px;
+    }
+    .it-development-body {
+        font-size: 23px;
+    }
+    .whyitdevelopment-whychoose-img {
+        width: 110%;
+        padding-top: 30px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+    .it-development-heading {
+        font-size: 52px;
+        line-height: 66px;
+    }
+    .it-development-body {
+        font-size: 22px;
+    }
+    .it-development-whychoose-heading,
+    .it-development-whychoose-heading-two,
+    .it-development-projects-heading,
+    .it-development-projects-heading-two,
+    .letsbuild-heading,
+    .letsbuild-heading-two {
+        font-size: 36px;
+    }
+    .it-development-whychoose-pointstart,
+    .it-development-whychoose-points {
+        font-size: 26px;
+    }
+    .icon-gap {
+        margin-right: 45px;
+        margin-top: 15px; /* Proportional reduction */
+    }
+    .it-development-whychoose-pointstart {
+        padding-top: 120px;
+    }
+    .it-development-projects-title {
+        font-size: 22px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px - user ranges: 991-1199, 800-990) */
+@media (max-width: 991px) {
+    .it-development-section {
+        min-height: 90vh;
+    }
+    .it-development-heading {
+        font-size: 46px;
+        line-height: 58px;
+    }
+    .it-development-body {
+        font-size: 20px;
+    }
+    .whyitdevelopment-whychoose-img {
+        min-width:120%;
+    }
+    .it-development-whychoose-heading,
+    .it-development-whychoose-heading-two,
+    .it-development-projects-heading,
+    .it-development-projects-heading-two,
+    .letsbuild-heading,
+    .letsbuild-heading-two {
+        font-size: 32px;
+    }
+    .it-development-whychoose-pointstart,
+    .it-development-whychoose-points {
+        font-size: 20px;
+        margin-left: -20px;
+    }
+    .icon-gap {
+        margin-right: 30px;
+        margin-top: 10px;
+        width: 18px;
+        height: 18px;
+    }
+    .it-development-whychoose-pointstart {
+        padding-top: 80px;
+    }
+    .it-development-projects-title {
+        font-size: 20px;
+    }
+    .it-development-projects-img {
+        height: 90px;
+    }
+    .letsbuild-body {
+        font-size: 18px;
+    }
+}
+
+/* Small devices (tablets portrait, landscape phones, less than 768px - user ranges: 768-801, 572-768) */
+/* Bootstrap col-md-* classes stack here. */
+@media (max-width: 767px) {
+    .it-development-section {
+        min-height: auto;
+        padding-top: 80px; /* Increased padding as min-height is auto */
+        padding-bottom: 40px;
+        margin-top:-30px; /* Reset negative margin if it was for header overlap */
+        text-align: center;
+    }
+    .it-development-heading {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .it-development-body {
+        font-size: 18px;
+        padding-left: 10px; /* Add some horizontal padding for centered text */
+        padding-right: 10px;
+    }
+     .whyitdevelopment-whychoose-img {
+        min-width:80%;
+    }
+
+    .it-development-whychoose-heading,
+    .it-development-projects-heading,
+    .letsbuild-heading {
+        font-size: 30px;
+    }
+    .it-development-whychoose-heading-two,
+    .it-development-projects-heading-two,
+    .letsbuild-heading-two {
+        font-size: 30px;
+    }
+
+    /* Ensure "Why Choose Us" text is readable when stacked */
+    .row > .col-md-6:first-child { /* Targets the text column specifically */
+        text-align: left; /* Override container's text-align: center if needed */
+    }
+    .it-development-whychoose-pointstart,
+    .it-development-whychoose-points {
+        font-size: 18px;
+        margin-left: 15px; /* Adjust indentation for stacked layout */
+    }
+    .it-development-whychoose-pointstart {
+        padding-top: 30px !important; /* Drastically reduce top padding when stacked */
+    }
+    .icon-gap {
+        margin-right: 20px;
+        margin-top: 8px;
+        width: 16px;
+        height: 16px;
+    }
+    .whyitdevelopment-whychoose-img {
+        margin-top: 30px; /* Add space above image when stacked */
+        max-width: 85%;   /* Control image size */
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .it-development-projects-heading {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .it-development-projects-title {
+        font-size: 18px;
+    }
+    .it-development-projects-img {
+        height: 80px;
+        margin-bottom: 15px;
+    }
+    .letsbuild-section {
+        min-height: auto;
+        padding: 50px 15px; /* Add horizontal padding */
+    }
+    .letsbuild-body {
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .letsbuild-button {
+        font-size: 15px;
+        padding: 8px 22px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px - user range: 480-572) */
+@media (max-width: 575px) {
+    .it-development-heading {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .it-development-body {
+        font-size: 16px;
+    }
+     .whyitdevelopment-whychoose-img {
+        min-width:90%;
+        padding-left: 120px;
+    }
+    .it-development-whychoose-heading,
+    .it-development-projects-heading,
+    .letsbuild-heading {
+        font-size: 26px;
+    }
+    .it-development-whychoose-heading-two,
+    .it-development-projects-heading-two,
+    .letsbuild-heading-two {
+        font-size: 26px;
+    }
+    .it-development-whychoose-pointstart,
+    .it-development-whychoose-points {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .icon-gap {
+        margin-right: 15px;
+        margin-top: 6px;
+        width: 14px;
+        height: 14px;
+    }
+    .it-development-projects-title {
+        font-size: 16px;
+    }
+    .it-development-projects-img {
+        height: 70px;
+    }
+    /* Projects section: col-6 gives 2 items per row. This should be acceptable.
+       If 1 item per row is desired, React component should use `col-12 col-sm-6 col-md-3` */
+    .letsbuild-body {
+        font-size: 15px;
+    }
+}
+
+/* Smaller portrait phones (less than 480px - user range: 380-480) */
+@media (max-width: 479px) {
+    .it-development-section {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .it-development-heading {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .it-development-body {
+        font-size: 15px;
+    }
+    .whyitdevelopment-whychoose-img {
+        min-width:100%;
+        padding-left: 50px;
+        margin-top: -30px;
+    }
+    .it-development-whychoose-heading,
+    .it-development-projects-heading,
+    .letsbuild-heading {
+        font-size: 24px;
+    }
+    .it-development-whychoose-heading-two,
+    .it-development-projects-heading-two,
+    .letsbuild-heading-two {
+        font-size: 24px;
+    }
+    .it-development-whychoose-pointstart,
+    .it-development-whychoose-points {
+        font-size: 15px;
+    }
+    .icon-gap {
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .it-development-projects-title {
+        font-size: 14px;
+    }
+    .it-development-projects-img {
+        height: 60px;
+    }
+    .letsbuild-section {
+        padding: 40px 15px;
+    }
+    .letsbuild-body {
+        font-size: 14px;
+    }
+    .letsbuild-button {
+        font-size: 14px;
+        padding: 7px 20px;
+    }
+}
+
+/* Very small devices (e.g., iPhone 5/SE, less than 380px - user range: 275-380) */
+@media (max-width: 379px) {
+    .it-development-heading {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .it-development-body {
+        font-size: 14px;
+    }
+    .whyitdevelopment-whychoose-img {
+        min-width:100%;
+        padding-left: 0px;
+        margin-top: -30px;
+    }
+    .it-development-whychoose-heading,
+    .it-development-projects-heading,
+    .letsbuild-heading {
+        font-size: 22px;
+    }
+    .it-development-whychoose-heading-two,
+    .it-development-projects-heading-two,
+    .letsbuild-heading-two {
+        font-size: 22px;
+    }
+    .it-development-whychoose-pointstart,
+    .it-development-whychoose-points {
+        font-size: 14px;
+        margin-left: 5px; /* Minimal indent */
+    }
+    .icon-gap {
+        margin-right: 8px;
+        width: 12px;
+        height: 12px;
+        margin-top: 4px;
+    }
+    .it-development-projects-title {
+        font-size: 13px;
+    }
+    .it-development-projects-img {
+        height: 50px;
+    }
+    .letsbuild-body {
+        font-size: 13px;
+    }
+    .letsbuild-button {
+        padding: 6px 18px;
+    }
+}

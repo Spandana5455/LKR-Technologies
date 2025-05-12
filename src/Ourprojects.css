@@ -345,7 +345,7 @@
 }
 @media (max-width: 480px) {
     .suitsnsalon-image {
-        margin-top: -150% !important;
+        margin-top: -560px !important;
         margin-left: auto !important;
         margin-right: auto !important;
         width: 100% !important;
@@ -354,7 +354,7 @@
         display: block !important;
     }
     .hostel-pg-image {
-        margin-top: -115% !important;
+        margin-top: -455px !important;
         margin-left: auto !important;
         margin-right: auto !important;
         width: 100% !important;
@@ -363,7 +363,7 @@
         display: block !important;
     }
     .dropquick-image {
-        margin-top: -105% !important;
+        margin-top: -420px !important;
         margin-left: auto !important;
         margin-right: auto !important;
         width: 100% !important;
@@ -373,9 +373,10 @@
     }
 }
 
+
 @media (max-width: 380px) {
     .suitsnsalon-image {
-        margin-top: -225% !important;
+        margin-top: -700px !important;
         margin-left: auto !important;
         margin-right: auto !important;
         width: 100% !important;
@@ -384,7 +385,7 @@
         display: block !important;
     }
     .hostel-pg-image {
-        margin-top: -175% !important;
+        margin-top: -545px!important;
         margin-left: auto !important;
         margin-right: auto !important;
         width: 100% !important;
@@ -393,7 +394,7 @@
         display: block !important;
     }
     .dropquick-image {
-        margin-top: -160% !important;
+        margin-top: -480px !important;
         margin-left: auto !important;
         margin-right: auto !important;
         width: 100% !important;

@@ -46,3 +46,720 @@
     color: #fff;
     margin-right: 500px;
 }
+
+.staffingservices-heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: #CA2127;
+}
+
+.staffingservices-heading-two {
+  font-size: 40px;
+  font-weight: 600;
+  background-image: linear-gradient(to right, #CA2127, #666666);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.staffingservice-card {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  height: 480px;
+  border-radius: 15px;
+  overflow: hidden;
+  background: transparent; 
+  box-shadow: none; 
+  cursor: pointer;
+}
+
+.staffingservice-img {
+  width: 420px;
+  height: 480px;
+  object-fit: cover;
+  transition: filter 0.3s ease, transform 0.3s ease;
+  border-radius: 15px;
+  display: block;
+  margin-left: -15px;
+  margin-top: -5px;
+}
+
+.staffingoverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #CA2127;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.staffingservice-card:hover .staffingoverlay {
+  opacity: 1;
+}
+
+.staffingservice-card:hover .staffingservice-img {
+  filter: brightness(0.3);
+  transform: scale(1.01);
+}
+
+.staffingoverlay-text {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: start;
+  padding: 60px;
+}
+
+.how-we-work-section {
+  background-image: url('./images/staffingpathbg.png'); /* Add your bg image with lines */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw; 
+  margin-left: calc(-50vw + 50%); 
+  padding: 60px 20px;
+  position: relative;
+  height: 300px;
+  margin-top: 150px;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+.staffing-heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: #CA2127;
+}
+
+.staffing-heading-two {
+  font-size: 40px;
+  font-weight: 600;
+  background-image: linear-gradient(to right, #CA2127, #666666);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.steps-container {
+  position: relative;
+  gap: 150px;
+  z-index: 1;
+}
+
+.step-card {
+  background-color: white;
+  width: 220px;
+  height: 300px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  position: relative;
+  margin-top: -180px;
+}
+
+.step-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.step-title {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.staffingroles-heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: #CA2127;
+}
+
+.staffingroles-heading-two {
+  font-size: 40px;
+  font-weight: 600;
+  background-image: linear-gradient(to right, #CA2127, #666666);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.role-card {
+  border: none;
+  border-radius: 20px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: start;
+  padding: 20px;
+  padding-right: 50px;
+}
+
+.role-title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: start;
+  background-image: linear-gradient( #641013, #CA2127);
+  padding-bottom: 10px;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  line-height: 40px;
+}
+
+.gray {
+  background-image: url("./images/staffinggreybg.png");
+  border-radius: 20px;
+}
+
+.pink {
+  background-image: url('./images/staffingpinkbg.png');
+  border-radius: 20px;
+}
+
+
+@media (max-width: 1283px) {
+  .itstaffing-section {
+    margin-top: -30px;
+  }
+    .itstaffing-heading {
+        font-size: 110px;
+    }
+    .whyitdevelopment-whychoose-img {
+      margin-left: -20px;
+    }
+    .itstaffing-subheading,
+    .itstaffing-subheadingtwo,
+    .itstaffing-subheading-line {
+        font-size: 56px;
+    }
+    .itstaffing-body {
+        font-size: 28px;
+        margin-right: 350px; /* Adjust margin */
+    }
+
+    .staffingservice-card {
+        max-width: 360px; 
+        height: 460px;
+    }
+    .staffingservice-img {
+        width: 380px; /* Maintain slight overflow for effect if desired, or match card */
+        height: 460px;
+    }
+    .staffingoverlay-text {
+        font-size: 22px;
+        padding: 45px;
+    }
+
+    .steps-container { /* This is also .how-we-work-section */
+        gap: 120px;
+    }
+    .step-card {
+        width: 200px;
+        height: 280px; 
+    }
+    .step-title {
+        font-size: 28px;
+    }
+
+    .role-card {
+        height: 240px;
+    }
+    .role-title {
+        font-size: 30px;
+    }
+}
+
+/* Max-width: 1199px (Range: 992px - 1199px approx, Bootstrap lg) */
+@media (max-width: 1199px) {
+  .itstaffing-section {
+    margin-top: -30px;
+  }
+    .itstaffing-heading {
+        font-size: 90px;
+    }
+    .itstaffing-subheading,
+    .itstaffing-subheadingtwo,
+    .itstaffing-subheading-line {
+        font-size: 44px;
+    }
+    .itstaffing-body {
+        font-size: 22px;
+        margin-right: 200px;
+    }
+
+    .staffingservices-heading,
+    .staffingservices-heading-two,
+    .it-development-whychoose-heading, 
+    .it-development-whychoose-heading-two,
+    .staffing-heading,
+    .staffing-heading-two,
+    .staffingroles-heading,
+    .staffingroles-heading-two {
+        font-size: 36px;
+    }
+
+    .staffingservice-card {
+        max-width: 300px; /* Adjusting for 3 cards in a row if lg=4 */
+        height: 400px;
+    }
+    .staffingservice-img {
+        width: 320px; 
+        height: 400px;
+    }
+    .staffingoverlay-text {
+        font-size: 20px;
+        padding: 35px;
+    }
+
+    .how-we-work-section { /* This is .steps-container */
+        margin-top: 120px; /* Adjust spacing from title */
+        padding: 50px 15px;
+        height: 150px; 
+        min-height: 280px; /* Min height for background */
+        gap: 50px;
+    }
+    .step-card {
+        width: 190px;
+        height: auto;
+        min-height: 200px;
+        margin-top: -150px; /* Adjust negative margin */
+        padding: 15px;
+    }
+    .step-image {
+        max-width: 100%;
+        height: auto;
+    }
+    .step-title {
+        font-size: 26px;
+    }
+
+    .role-card {
+        height: 220px;
+        padding: 18px;
+        padding-right: 35px;
+    }
+    .role-title {
+        font-size: 26px;
+        line-height: 34px;
+    }
+}
+
+
+/* Max-width: 991px (Range: 768px - 991px approx, Bootstrap md) */
+@media (max-width: 991px) {
+    .itstaffing-section {
+        min-height: 75vh; 
+        padding-top: 40px; 
+        padding-bottom: 40px;
+        margin-top: -30px;
+    }
+    .itstaffing-heading {
+        font-size: 64px;
+        text-align: center;
+    }
+    .itstaffing-subheading,
+    .itstaffing-subheadingtwo,
+    .itstaffing-subheading-line {
+        font-size: 36px;
+        text-align: center;
+    }
+    .itstaffing-body {
+        font-size: 20px;
+        margin-right: 50px; /* Smaller margin, or 0 if centered */
+        margin-left: 50px;
+        text-align: center;
+        padding: 0 10px; 
+    }
+
+    .staffingservices-heading,
+    .staffingservices-heading-two,
+    .it-development-whychoose-heading, 
+    .it-development-whychoose-heading-two,
+    .staffing-heading,
+    .staffing-heading-two,
+    .staffingroles-heading,
+    .staffingroles-heading-two {
+        font-size: 32px;
+    }
+    
+    .it-development-whychoose-heading, 
+    .it-development-whychoose-heading-two {
+        text-align: center;
+    }
+    /* staffingservice-card uses col-md-4 (3 per row) */
+    .staffingservice-card {
+        max-width: 100%; /* Let Col component handle width */
+        height: auto; 
+        min-height: 380px; /* Example height */
+    }
+    .staffingservice-img {
+        width: 100%; 
+        height: 300px; /* Adjust as needed, or use aspect ratio */
+        object-fit: cover;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .staffingoverlay-text {
+        font-size: 18px;
+        padding: 25px;
+        line-height: 1.6;
+    }
+
+    .how-we-work-section { /* This is .steps-container */
+        margin-top: 60px; 
+        padding: 40px 20px; /* Internal padding for background */
+        flex-direction: column; 
+        align-items: center; 
+        gap: 30px; /* Gap between stacked cards */
+        height: auto;
+    }
+    .step-card {
+        width: 70%; 
+        max-width: 320px; 
+        margin-top: 0; /* Reset negative margin, cards flow normally */
+        height: auto;
+        min-height: auto;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Softer shadow maybe */
+    }
+    .step-title {
+        font-size: 22px;
+    }
+
+    .role-card { /* col-md-4 means 3 per row here */
+        height: auto; 
+        min-height: 200px; 
+    }
+    .role-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+
+/* Max-width: 767px (Range: 572px - 767px approx, Bootstrap sm) */
+@media (max-width: 767px) {
+    .itstaffing-section {
+        min-height: auto; /* Allow content to define height */
+        padding: 50px 0;
+        margin-top: -30px; 
+    }
+    .itstaffing-heading {
+        font-size: 50px;
+    }
+    .itstaffing-subheading,
+    .itstaffing-subheadingtwo,
+    .itstaffing-subheading-line {
+        font-size: 30px;
+    }
+    .itstaffing-body {
+        font-size: 18px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 0 5px;
+    }
+
+    .staffingservices-heading,
+    .staffingservices-heading-two,
+    .it-development-whychoose-heading, 
+    .it-development-whychoose-heading-two,
+    .staffing-heading,
+    .staffing-heading-two,
+    .staffingroles-heading,
+    .staffingroles-heading-two {
+        font-size: 28px;
+    }
+    
+    /* Why Choose Us: col-md-6 stacks, so col is 12-wide */
+    .it-development-whychoose-pointstart,
+    .it-development-whychoose-points {
+        padding-left: 15%; /* Indent points a bit */
+        padding-right: 15%;
+    }
+    .it-development-whychoose-pointstart span,
+    .it-development-whychoose-points span {
+        font-size: 16px; 
+    }
+    .icon-gap {
+        width: 16px; 
+        height: 16px;
+        margin-right: 8px;
+    }
+     .whyitdevelopment-whychoose-img {
+        max-width: 80%; 
+    }
+
+
+    /* staffingservice-card uses col-sm-6 (2 per row) */
+    .staffingservice-card {
+        min-height: 350px; 
+    }
+    .staffingservice-img {
+        height: 280px; 
+    }
+    .staffingoverlay-text {
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .how-we-work-section {
+        margin-top: 50px;
+        gap: 25px;
+    }
+    .step-card {
+        width: 80%;
+        max-width: 300px;
+    }
+    .step-title {
+        font-size: 20px;
+    }
+
+    /* Roles cards: col-md-4 means they become full-width here (1 per row) */
+    .role-card {
+        min-height: 160px;
+        padding: 15px;
+    }
+    .role-title {
+        font-size: 22px;
+        line-height: 28px;
+    }
+}
+
+/* Max-width: 571px (Range: 480px - 571px approx, Bootstrap xs) */
+@media (max-width: 571px) {
+   .itstaffing-section {
+    margin-top: -30px;
+  }
+    .itstaffing-heading {
+        font-size: 42px;
+    }
+    .itstaffing-subheading,
+    .itstaffing-subheadingtwo,
+    .itstaffing-subheading-line {
+        font-size: 26px;
+    }
+    .itstaffing-body {
+        font-size: 16px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .staffingservices-heading,
+    .staffingservices-heading-two,
+    .it-development-whychoose-heading, 
+    .it-development-whychoose-heading-two,
+    .staffing-heading,
+    .staffing-heading-two,
+    .staffingroles-heading,
+    .staffingroles-heading-two {
+        font-size: 26px;
+        margin-bottom: 20px; /* Reduce bottom margin for headings */
+    }
+    
+    .container.my-5 { /* Reduce margin for sections */
+        margin-top: 2rem !important;
+        margin-bottom: 2rem !important;
+    }
+    .pt-4 { /* Global padding class reduction */
+      padding-top: 1rem !important;
+    }
+
+    .it-development-whychoose-pointstart,
+    .it-development-whychoose-points {
+        font-size: 15px; 
+        padding-left: 10%; 
+        padding-right: 10%;
+    }
+
+    /* staffingservice-card uses col-xs-12 (1 per row) */
+    .staffingservice-card {
+        min-height: 320px;
+    }
+    .staffingservice-img {
+        height: 250px;
+    }
+    .staffingoverlay-text {
+        font-size: 15px;
+        padding: 15px;
+        line-height: 1.5;
+    }
+
+    .how-we-work-section {
+        margin-top: 40px;
+        padding: 30px 10px;
+        gap: 20px;
+    }
+    .step-card {
+        width: 90%;
+        max-width: 280px;
+    }
+    .step-title {
+        font-size: 18px;
+    }
+
+    .role-card {
+        min-height: 140px;
+        margin-bottom: 1rem !important; /* from .mb-4 */
+    }
+    .role-title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+
+/* Max-width: 479px (Range: 380px - 479px approx) */
+@media (max-width: 479px) {
+    .itstaffing-section {
+        padding: 40px 0;
+        margin-top: -30px;
+    }
+    .itstaffing-heading {
+        font-size: 36px;
+    }
+    .itstaffing-subheading,
+    .itstaffing-subheadingtwo,
+    .itstaffing-subheading-line {
+        font-size: 22px;
+    }
+    .itstaffing-body {
+        font-size: 15px;
+        padding: 0 15px; /* Ensure some padding for body text */
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .staffingservices-heading,
+    .staffingservices-heading-two,
+    .it-development-whychoose-heading, 
+    .it-development-whychoose-heading-two,
+    .staffing-heading,
+    .staffing-heading-two,
+    .staffingroles-heading,
+    .staffingroles-heading-two {
+        font-size: 24px;
+    }
+    
+    .it-development-whychoose-pointstart,
+    .it-development-whychoose-points {
+        font-size: 14px; 
+        padding-left: 5%; 
+        padding-right: 5%;
+    }
+    .icon-gap {
+        margin-right: 6px; 
+    }
+
+    .staffingservice-card {
+        min-height: 300px;
+    }
+     .staffingservice-img {
+        height: 220px;
+    }
+    .staffingoverlay-text {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .how-we-work-section {
+        margin-top: 30px;
+        padding: 25px 10px;
+    }
+    .step-card {
+        width: 95%;
+        padding: 10px;
+    }
+    .step-title {
+        font-size: 17px;
+        margin-top: 8px;
+    }
+
+    .role-card {
+        min-height: 120px;
+        padding: 10px;
+    }
+    .role-title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+/* Max-width: 379px (Range: 275px - 379px approx) */
+@media (max-width: 379px) {
+   .itstaffing-section {
+    margin-top: -30px;
+  }
+    .itstaffing-heading {
+        font-size: 30px;
+    }
+    .itstaffing-subheading,
+    .itstaffing-subheadingtwo,
+    .itstaffing-subheading-line {
+        font-size: 20px;
+    }
+    .itstaffing-body {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .staffingservices-heading,
+    .staffingservices-heading-two,
+    .it-development-whychoose-heading, 
+    .it-development-whychoose-heading-two,
+    .staffing-heading,
+    .staffing-heading-two,
+    .staffingroles-heading,
+    .staffingroles-heading-two {
+        font-size: 22px;
+    }
+    
+    .it-development-whychoose-pointstart span,
+    .it-development-whychoose-points span {
+        font-size: 13px; 
+    }
+    .it-development-whychoose-pointstart,
+    .it-development-whychoose-points {
+       padding-left: 2%; 
+       padding-right: 2%;
+    }
+
+
+    .staffingservice-card {
+        min-height: 280px; 
+    }
+    .staffingservice-img {
+        height: 200px; 
+    }
+    .staffingoverlay-text {
+        font-size: 13px;
+        line-height: 1.4;
+        padding: 8px;
+    }
+    
+    .how-we-work-section {
+        margin-top: 20px;
+    }
+    .step-card {
+        width: 98%;
+    }
+    .step-title {
+        font-size: 16px;
+    }
+
+    .role-card {
+        min-height: 110px;
+    }
+    .role-title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}

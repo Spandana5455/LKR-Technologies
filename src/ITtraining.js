@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import { LuMapPin } from "react-icons/lu";
+import { Link } from 'react-router-dom';
 import './ITtraining.css';
 import ittrainingbg from './images/ittrainingbg.png';
 import whyittraining from './images/whyittraining.png';
@@ -30,7 +31,7 @@ const ITtraining = () => {
                     <div className='col-md-6'>
                         <h1 className='it-training-heading'>"Unlock Your Future with IT Training"</h1>
                         <p className='it-training-body'>Gain real-world skills and certifications that put you on the fast track to a thriving IT career</p>
-                        <button className='it-training-buttoncustom'>Join Our Academy Today</button>
+                        <Link to="/bookademo" className="it-training-buttoncustom">Join Our Academy Today</Link>
                     </div>
                     <div className='col-md-6'>
                         <img src={ittrainingbg} className='it-training-image' alt='ittrainingbgimg'/>
@@ -82,7 +83,8 @@ const ITtraining = () => {
                                     <div className="d-flex align-items-center courses-location mb-3">
                                         <LuMapPin className="me-2 text-danger" />Hyderabad, Telangana, India
                                     </div>
-                                    <Button variant="" className="w-75 rounded-3 courses-bookbutton">Book demo</Button>
+                                    <Link to="/bookademo">
+                                    <Button variant="" className="w-75 rounded-3 courses-bookbutton">Book demo</Button></Link>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -105,7 +107,7 @@ const ITtraining = () => {
                 </div>
             </div>
             <br/>
-            <div className='row pt-4'>
+            <div className='row pt-4 companiestwo'>
                 <div className='col-md-6'>
                     <img src={Tcs} className='Tcsimg' alt='Tcsimg'/>
                 </div>
