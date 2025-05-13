@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import HeroSection from "./HeroSection";
 import Clients from "./Clients";
 import Whychooseus from "./Whychooseus";
-import Ourservices from "./Ourservices";
 import Testimonials from "./Testimonials";
 import image1 from './images/image1.png';
 import rummyludo from './images/rummyludo.png';
