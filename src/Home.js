@@ -49,7 +49,6 @@ export default function Home() {
           </div>
       <Whychooseus />
       <Testimonials />
-      <Ourservices />
       <br/>
       <div className="container pt-4">
             <h2 className="our-projects-heading">Our <span className="our-projects-heading-projects">Projects</span></h2>
