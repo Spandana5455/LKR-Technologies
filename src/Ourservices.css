@@ -14,7 +14,7 @@
 }
   
 .our-section {
-    color: white;
+    color: #CA2127;
     display: inline;
     font-size: 40px;
     font-weight: 700;
@@ -22,7 +22,10 @@
 }
   
 .service-section {
-    color: #CA2127;
+     background-image: linear-gradient( to right,#CA2127, #666666);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
     display: inline;
     margin-left: 10px;
     font-size: 40px;

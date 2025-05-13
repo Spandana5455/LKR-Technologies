@@ -30,7 +30,7 @@ const Career = () => {
   { id: 4, title: 'Culture Fit Interview', description: 'Meet with leadership or team members to ensure alignment with our values and work style.' },
   { id: 5, title: 'Offer & Onboarding', description: 'Welcome aboard! Get ready to thrive in a supportive and high-growth environment.' },
 ];
-const [activeStep, setActiveStep] = useState(1);
+const [activeStep, setActiveStep] = useState(steps[0].id); 
 
 const cards = [
     {

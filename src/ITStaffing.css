@@ -227,65 +227,56 @@
   border-radius: 20px;
 }
 
-@media (min-width: 1287px) {
+@media (min-width: 1285px) {
   .itstaffing-section {
-    margin-top: 0;
+    margin-top: -30px;
   }
+    .itstaffing-heading {
+        font-size: 110px;
+    }
+    .whyitdevelopment-whychoose-img {
+      margin-left: -20px;
+    }
+    .itstaffing-subheading,
+    .itstaffing-subheadingtwo,
+    .itstaffing-subheading-line {
+        font-size: 56px;
+    }
+    .itstaffing-body {
+        font-size: 28px;
+        margin-right: 350px; /* Adjust margin */
+    }
 
-  .itstaffing-heading {
-    font-size: 120px; /* Adjusted for larger screens */
-  }
+    .staffingservice-card {
+        max-width: 360px; 
+        height: 460px;
+    }
+    .staffingservice-img {
+        width: 380px; /* Maintain slight overflow for effect if desired, or match card */
+        height: 460px;
+    }
+    .staffingoverlay-text {
+        font-size: 22px;
+        padding: 45px;
+    }
 
-  .whyitdevelopment-whychoose-img {
-    margin-left: 0;
-  }
+    .steps-container { /* This is also .how-we-work-section */
+        gap: 40px;
+    }
+    .step-card {
+        width: 200px;
+        height: 280px; 
+    }
+    .step-title {
+        font-size: 28px;
+    }
 
-  .itstaffing-subheading,
-  .itstaffing-subheadingtwo,
-  .itstaffing-subheading-line {
-    font-size: 64px;
-  }
-
-  .itstaffing-body {
-    font-size: 32px;
-    margin-right: 0;
-  }
-
-  .staffingservice-card {
-    max-width: 400px;
-    height: 500px;
-  }
-
-  .staffingservice-img {
-    width: 400px;
-    height: 500px;
-  }
-
-  .staffingoverlay-text {
-    font-size: 24px;
-    padding: 50px;
-  }
-
-  .steps-container {
-    gap: 40px;
-  }
-
-  .step-card {
-    width: 240px;
-    height: 320px;
-  }
-
-  .step-title {
-    font-size: 32px;
-  }
-
-  .role-card {
-    height: 280px;
-  }
-
-  .role-title {
-    font-size: 34px;
-  }
+    .role-card {
+        height: 240px;
+    }
+    .role-title {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 1283px) {

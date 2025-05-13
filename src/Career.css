@@ -99,17 +99,15 @@
 }
 
 .active-step {
-  background-color: #CA2127;
-  color: white;
-  font-weight: 500;
+  background-color: #CA2127 !important;
+  color: #fff !important;
+  font-weight: 600;
+  border-color: #CA2127;
 }
 
-.active-step .career-title {
-  color: white;
-}
-
+.active-step .career-title,
 .active-step .step-icon {
-  color: white;
+  color: #fff !important;
 }
 
 .career-futurestarts {

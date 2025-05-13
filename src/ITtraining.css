@@ -27,6 +27,7 @@
     font-weight: 400;
     color: #fff;
     padding-top: 20px;
+    margin-bottom: 40px;
 }
 
 .it-training-buttoncustom {
@@ -35,7 +36,6 @@
     border-radius: 25px;
     padding: 10px 25px;
     border: #CA2127;
-    margin-top: 50px;
     text-decoration: none !important;
 }
 
