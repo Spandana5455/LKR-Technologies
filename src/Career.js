@@ -229,7 +229,6 @@ const items = [
             </div>
         </div>
 
-
         <div className="container my-5 text-center">
             <h2 className="mb-5">
                 <span className="career-training-heading">Training</span>
@@ -238,7 +237,7 @@ const items = [
             <div className="row justify-content-center">
                 {items.map((item, idx) => (
                     <div key={idx} className="col-md-4">
-                        <div className="d-flex flex-column align-items-start">
+                        <div className="d-flex flex-column align-items-center">
                             <img src={item.image} alt="icon"  className="career-training-img"/>
                         </div>
                         <p className="career-training-text">{item.text}</p>

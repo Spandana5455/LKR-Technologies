@@ -48,16 +48,20 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link className="nav-link" to="/lkrstory" onClick={() => setIsOpen(false)}>LKR Story</Link>
               </li>
-              <li className="nav-item dropdown"
-              onMouseEnter={!isMobile ? () => setOpenDropdown('services') : null}
-              onMouseLeave={!isMobile ? () => setOpenDropdown(null) : null}
-              onClick={isMobile ? () => toggleDropdown('services') : null}
-              >
-                <span className="nav-link" role="button">Services </span>
-                <ul className={`dropdown-menu vertical-dropdown ${openDropdown === 'services' ? 'show' : ''}`}>
-                  <li className="dropdown-item" onClick={() => handleNavigate('/ittraining')}>IT Training</li>
-                  <li className="dropdown-item" onClick={() => handleNavigate('/itdevelopment')}>IT Development</li>
-                  <li className="dropdown-item" onClick={() => handleNavigate('/itstaffing')}>IT Staffing</li>
+              <li className={`nav-item dropdown ${openDropdown === 'services' ? 'show' : ''}`}
+              onMouseEnter={() => !isMobile && setOpenDropdown('services')}
+              onMouseLeave={() => !isMobile && setOpenDropdown(null)}>
+                <span className="nav-link" role="button" onClick={() => isMobile && toggleDropdown('services')}> Services </span>
+                <ul className={`dropdown-menu ${openDropdown === 'services' ? 'show' : ''}`}>
+                  <li>
+                    <Link className="dropdown-item" to="/ittraining" onClick={() => { setOpenDropdown(null); setIsOpen(false); }}> IT Training </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item" to="/itdevelopment" onClick={() => { setOpenDropdown(null); setIsOpen(false); }}> IT Development </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item" to="/itstaffing" onClick={() => { setOpenDropdown(null); setIsOpen(false); }}> IT Staffing </Link>
+                  </li>
                 </ul>
               </li>
               <li className="nav-item">

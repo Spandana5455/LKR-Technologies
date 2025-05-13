@@ -51,9 +51,15 @@ const Footer = () => {
                 <div className="footer-section social-section">
                   <p>FOLLOW US ON</p>
                   <div className="social-icons">
-                    <img src={fb} alt="face-book" />
-                    <img src={instagram} alt="instagram" />
-                    <img src={linkedin} alt="linkedin" />
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                      <img src={fb} alt="facebook" />
+                    </a>
+                    <a href="https://www.instagram.com/lkrtechnologies/?hl=en" target="_blank" rel="noopener noreferrer">
+                      <img src={instagram} alt="instagram" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/lkr-technologies-285a40362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+                      <img src={linkedin} alt="linkedin" />
+                    </a>
                   </div>
                 </div>
               </div>
