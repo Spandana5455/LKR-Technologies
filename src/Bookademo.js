@@ -25,9 +25,9 @@ const Bookademo = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.init('9gSd3MGZ67bo5DDlx'); // Replace with your EmailJS public key
+    emailjs.init('vYrie5CAfK58kpSgl'); 
 
-    emailjs.send('service_a9cak7s', 'template_8qvbozr', formData)
+    emailjs.send('service_zzl4nlh', 'template_yvgods5', formData)
       .then(() => {
         Swal.fire({
           icon: 'success',

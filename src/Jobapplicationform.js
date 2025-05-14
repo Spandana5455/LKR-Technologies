@@ -30,9 +30,9 @@ const JobApplicationForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.init('_IrMPIBYjQ-KTOLVu'); // Replace with your EmailJS public key
+    emailjs.init('gHSq84WF3DbklYsv0'); // Replace with your EmailJS public key
 
-    emailjs.send('service_zyn85dk', 'template_gk8qaae', formData)
+    emailjs.send('service_8kpdsnf', 'template_8j9ecme', formData)
       .then(() => {
         Swal.fire({
           icon: 'success',

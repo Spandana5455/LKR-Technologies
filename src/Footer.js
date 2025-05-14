@@ -40,7 +40,7 @@ const Footer = () => {
                 <div className="footer-section">
                   <p><Link to="/contact" className="footer-link">Contact Us</Link></p>
                   <p>+91 9100006517</p>
-                  <p>contactlkrtechnologies@gmail.com</p>
+                  <p>info@lkrtechnologies.com</p>
                 </div>
         
                 <div className="footer-section">

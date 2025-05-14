@@ -23,10 +23,10 @@ const ContactUs = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.init('_IrMPIBYjQ-KTOLVu'); // Replace with your EmailJS public key
+    emailjs.init('gHSq84WF3DbklYsv0'); // Replace with your EmailJS public key
 
     emailjs
-      .send('service_bss9p7d', 'template_c3871op', formData)
+      .send('service_8kpdsnf', 'template_5xjcu64', formData)
       .then(() => {
         Swal.fire({
           icon: 'success',
