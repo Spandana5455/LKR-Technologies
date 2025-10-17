@@ -22,6 +22,7 @@ import Webdevelopmentdesign from "./Webdevelopmentdesign";
 import Gamedeveloperdesign from "./Gamedeveloperdesign";
 import Privacypolicy from "./Privacypolicy";
 import Termsandconditions from "./Termsandconditions";
+import Datadeletion from "./Datadeletion";
 import JobAppSuccess from "./Jobappsuccess";
 import ScrollTop from "./scrollTop";
 import ITtraining from "./ITtraining"; 
@@ -64,6 +65,7 @@ const App = () => {
             <Route path="/game-developer" element={<Gamedeveloperdesign />} />
             <Route path="/privacy-policy" element={<Privacypolicy />} />
             <Route path="/terms-conditions" element={<Termsandconditions />} />
+            <Route path="/data-deletion" element={<Datadeletion />} />
             <Route path="/jobappsuccess" element={<JobAppSuccess />} />
             <Route path="/bookademo" element={<Bookademo />} />
 

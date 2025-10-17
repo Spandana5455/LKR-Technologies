@@ -1,5 +1,4 @@
 .header-text {
-    color: #ca2127;
     font-weight: 600;
     font-size: 40px;
     text-align: center;
@@ -22,7 +21,7 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
-.desc1-text{
+/* .desc1-text{
     color: #000000;
     font-weight: 500;
     font-size: 28px;
@@ -30,13 +29,14 @@
     text-decoration: underline;
     text-underline-offset: 6px;
     margin: 20px 0;
-}
+} */
  
   
 .desc-text {
     text-align: center;
     margin-bottom: 30px;
     font-size: 15px;
+    font-weight: 400;
     text-decoration: none;
 }
   
