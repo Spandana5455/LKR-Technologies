@@ -112,7 +112,7 @@ const Datadeletion = () =>{
         </Container>
 
         <Container className="my-5">
-          <Row className="text-center mb-4">
+          <Row className="text-center">
             <Col>
               <h4 className="fw-bold">Ready to Submit Your Request?</h4>
               <p className="text-muted">
@@ -124,31 +124,15 @@ const Datadeletion = () =>{
           <Row className="justify-content-center">
             <Col md={8}>
               <Card className="shadow-sm border-0 p-4">
-                <p className="text-muted mb-2">
-                  You can send the following command to our WhatsApp for an automated request:
-                </p>
-                <div className="bg-light border rounded p-3 mb-3">
-                  <code className="text-primary">
-                    !delete-my-data - Permanently delete all your data from our system.
-                  </code>
-                </div>
-
                 <div className="d-flex flex-wrap justify-content-center gap-3">
                   <Button
                     variant="success"
                     className="px-4 py-2 fw-semibold"
-                    href="https://wa.me/918197285900"
+                    href="https://wa.me/919100006517"
                     target="_blank"
                   >
                     Request via WhatsApp
                   </Button>
-                  {/* <Button
-                    variant="outline-primary"
-                    className="px-4 py-2 fw-semibold"
-                    href="mailto:admin@hironikatravels.online"
-                  >
-                    Request via Email
-                  </Button> */}
                 </div>
               </Card>
             </Col>
