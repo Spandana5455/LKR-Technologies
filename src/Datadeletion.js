@@ -66,11 +66,11 @@ const Datadeletion = () =>{
                 </Card.Header>
                 <ListGroup variant="flush">
                   {[
-                    "Personal contact information",
-                    "Travel preferences and history",
-                    "Communication records",
-                    "Marketing preferences",
-                    "Optional survey responses",
+                    "Guest contact information, and ID verification",
+                    "Booking information",
+                    "Payment information",
+                    "Location and device details for fraud prevention",
+                    "Helpdesk/chat communication with our support team",
                   ].map((item, index) => (
                     <ListGroup.Item key={index}>{item}</ListGroup.Item>
                   ))}
@@ -85,10 +85,10 @@ const Datadeletion = () =>{
                 </Card.Header>
                 <ListGroup variant="flush">
                   {[
-                    "GST compliance records (5+ years)",
-                    "Financial transaction records",
-                    "Legal documentation",
-                    "Business regulatory requirements",
+                    "Guest identity records",
+                    "Booking history and invoices for GST & taxation compliance",
+                    "Payment and refund transaction records",
+                    "Legal documentation related to disputes, safety, or verification",
                     "Safety and security logs",
                   ].map((item, index) => (
                     <ListGroup.Item key={index}>{item}</ListGroup.Item>
