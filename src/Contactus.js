@@ -78,7 +78,7 @@ const ContactUs = () => {
               5TH FLOOR, 5H, Jains Ravi Gayathri Heights, <br />
               Jubilee Enclave, Madhapur, Hyderabad, <br />
                Rangareddy,Telangana,500081<br/>
-              +91 7032324242<br />
+              +91 9100006517<br />
               contactlkrtechnologies@gmail.com
             </p>
           </div>
