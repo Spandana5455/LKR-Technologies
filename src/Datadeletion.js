@@ -128,7 +128,7 @@ const Datadeletion = () =>{
                   <Button
                     variant="success"
                     className="px-4 py-2 fw-semibold"
-                    href="https://wa.me/919100006517"
+                    href="https://wa.me/917032324242"
                     target="_blank"
                   >
                     Request via WhatsApp
@@ -144,7 +144,7 @@ const Datadeletion = () =>{
               <Card className="shadow-sm border-0 p-4">
                 <h5 className="fw-bold mb-3">Contact Information</h5>
                 <p>
-                  <strong>WhatsApp:</strong> +91 9100006517 <br />
+                  <strong>WhatsApp:</strong> +91 7032324242 <br />
                   <strong>Email:</strong>{" "}
                   <a href="mailto:contactlkrtechnologies@gmail.com">
                     contactlkrtechnologies@gmail.com

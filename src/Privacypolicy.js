@@ -130,8 +130,8 @@ const Privaypolicy = () => {
     <li><strong>Brand Name:</strong>LKR Technologies Pvt.Ltd</li>
     <li><strong>Website URL:</strong><a href='https://lkrtechnologies.com/'  target="_blank" rel="noopener noreferrer">https://lkrtechnologies.com/</a></li>
     <li><strong>Email:</strong> <a href="mailto:contactlkrtechnologies@gmail.com">contactlkrtechnologies@gmail.com</a>{" "}</li>
-    <li><strong>Phone:</strong> +91 9100006517</li>
-    <li><strong>Registered Office:</strong> 4th Floor, Plot No: 25, 2, 4 And 5, Arunodaya Colony, Vittal Rao Nagar, Madhapur, Hyderabad, Telangana 500081</li>
+    <li><strong>Phone:</strong> +91 7032324242</li>
+    <li><strong>Registered Office:</strong> 5TH FLOOR, 5H, Jains Ravi Gayathri Heights, Jubilee Enclave, Madhapur, Hyderabad, Rangareddy, Telangana, 500081</li>
     <li><strong>Support Hours:</strong> 10AM - 6PM </li>
   </ul>
 

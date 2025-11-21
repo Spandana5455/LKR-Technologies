@@ -75,11 +75,10 @@ const ContactUs = () => {
             </p>
             <h4 className="info-heading">Headquarters</h4>
             <p className="info-text">
-              4th Floor, Plot No: 25, 2, 4 And 5,<br />
-              Arunodaya Colony,<br />
-              Vittal Rao Nagar, Madhapur, Hyderabad,<br />
-              Telangana 500081<br />
-              +91 9100006517<br />
+              5TH FLOOR, 5H, Jains Ravi Gayathri Heights, <br />
+              Jubilee Enclave, Madhapur, Hyderabad, <br />
+               Rangareddy,Telangana,500081<br/>
+              +91 7032324242<br />
               contactlkrtechnologies@gmail.com
             </p>
           </div>

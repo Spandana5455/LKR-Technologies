@@ -93,8 +93,8 @@ const Termsandconditions = () => {
         <h3 className="section-title red">Contact Us</h3>
         <p><strong>Company Name:</strong> LKR Technologies Pvt.Ltd
           <br/><strong>Email:</strong> <a href="mailto:contactlkrtechnologies@gmail.com">contactlkrtechnologies@gmail.com</a>{" "}
-          <br /><strong>Phone:</strong> +91 9100006517
-          <br/><strong>Address:</strong> 4th Floor, Plot No: 25, 2, 4 And 5, Arunodaya Colony, Vittal Rao Nagar, Madhapur, Hyderabad, Telangana 500081
+          <br /><strong>Phone:</strong> +91 7032324242
+          <br/><strong>Address:</strong> 5TH FLOOR, 5H, Jains Ravi Gayathri Heights, Jubilee Enclave, Madhapur, Hyderabad, Rangareddy, Telangana, 500081
         </p>
         <p>By using our services, you acknowledge that you have read and agree to these Terms and Conditions.</p>
         <p><strong>Last Updated:</strong> 18-10-2025</p>
