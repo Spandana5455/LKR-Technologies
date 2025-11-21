@@ -66,10 +66,10 @@ const Datadeletion = () =>{
                 </Card.Header>
                 <ListGroup variant="flush">
                   {[
-                    "Guest contact information, and ID verification",
+                    "Guest information",
                     "Booking information",
                     "Payment information",
-                    "Location and device details for fraud prevention",
+                    "Personal details and government-approved ID for KYC verification",
                     "Helpdesk/chat communication with our support team",
                   ].map((item, index) => (
                     <ListGroup.Item key={index}>{item}</ListGroup.Item>
