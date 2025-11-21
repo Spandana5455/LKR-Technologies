@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Whatsapp = ({
-  phoneNumber = '919100006517',
+  phoneNumber = '917032324242',
   message = 'Hello, I am interested in your services',
   size = 50
 }) => {
