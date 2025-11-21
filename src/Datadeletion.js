@@ -104,7 +104,7 @@ const Datadeletion = () =>{
             <ul className="mb-0">
               <li>Data deletion is permanent and cannot be undone.</li>
               <li>Some information may be retained for legal compliance (e.g., GST records: 5+ years).</li>
-              <li> Processing may take up to 30 days to complete</li>
+              <li> Processing may take up to 10 days to complete</li>
               <li>You may lose access to booking history and preferences</li>
               <li>Future bookings will require providing information again</li>
             </ul>
