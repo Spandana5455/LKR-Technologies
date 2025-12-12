@@ -13,7 +13,7 @@ const Datadeletion: React.FC = () => {
                                 <div className="mb-4">
                                     <span className="badge bg-danger fs-6 px-4 py-2">Account Deletion Request</span>
                                 </div>
-                                <h1 className="display-5 fw-bold text-dark mb-3">Jipstay Tenant</h1>
+                                <h1 className="display-5 fw-bold text-dark mb-3">Jipstay (Manager & Tenant)</h1>
                                 <p className="text-muted lead">Request permanent deletion of your account and personal data</p>
                             </div>
 
@@ -23,7 +23,7 @@ const Datadeletion: React.FC = () => {
                                     <div className="row text-center justify-content-center">
                                         <div className="col-md-5 mb-3 mb-md-0">
                                             <h6 className="text-muted small mb-1">App Name</h6>
-                                            <p className="fw-bold mb-0 fs-5">Jipstay Tenant</p>
+                                            <p className="fw-bold mb-0 fs-5">Jipstay (Manager & Tenant)</p>
                                         </div>
                                         <div className="col-md-5 mb-3 mb-md-0">
                                             <h6 className="text-muted small mb-1">Developer</h6>
@@ -57,7 +57,7 @@ const Datadeletion: React.FC = () => {
                                                     </p>
                                                     <div className="bg-light p-3 rounded">
                                                         <p className="mb-1"><strong>Subject:</strong></p>
-                                                        <p className="font-monospace small mb-2">Account Deletion Request – Jipstay Tenant</p>
+                                                        <p className="font-monospace small mb-2">Account Deletion Request - Jipstay Tenant</p>
                                                         <p className="mb-0"><strong>Include:</strong> The registered mobile number or email used in the app.</p>
                                                     </div>
                                                 </div>
@@ -77,7 +77,7 @@ const Datadeletion: React.FC = () => {
                                                     </p>
                                                     <div className="bg-light p-3 rounded">
                                                         <p className="mb-1"><strong>Start your message with:</strong></p>
-                                                        <p className="font-monospace small mb-0">Account Deletion Request – Jipstay Tenant</p>
+                                                        <p className="font-monospace small mb-0">Account Deletion Request - Jipstay Tenant</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -102,7 +102,7 @@ const Datadeletion: React.FC = () => {
                                             { icon: '📱', text: 'Registered mobile number' },
                                             { icon: '📧', text: 'Registered email address' },
                                             { icon: '🆔', text: 'User ID (if available)' },
-                                            { icon: '📋', text: 'Partial Aadhaar or PAN details (never the full number) — only if needed for verification' },
+                                            { icon: '📋', text: 'Partial Aadhaar or PAN details (never the full number) - only if needed for verification' },
                                         ].map((item, idx) => (
                                             <div key={idx} className="col-md-6">
                                                 <div className="p-3 bg-light rounded-3 d-flex align-items-center">
