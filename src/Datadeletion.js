@@ -1,164 +1,259 @@
 import React from 'react';
-import './Datadeletion.css';
-import { Container, Row, Col, Card, ListGroup, Alert,Button } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Row, Col } from 'react-bootstrap';
 
-const Datadeletion = () =>{
+const Datadeletion: React.FC = () => {
     return (
         <>
-        <div className="terms-container">
-        <h1 className="header-text">
-          <span className="terms-text">Data Deletion Request</span>
-        </h1>
-        <p className="desc-text">
-          Request removal of your personal data from our records.
-        </p>
+            <div className="data-deletion-page" style={{ paddingTop: '10px', minHeight: '100vh', backgroundColor: '#f8f9fa' }}>
+                <Container className="py-5">
+                    <Row className="justify-content-center">
+                        <Col lg={10} xl={9}>
+                            {/* Header */}
+                            <div className="text-center mb-5">
+                                <div className="mb-4">
+                                    <span className="badge bg-danger fs-6 px-4 py-2">Account Deletion Request</span>
+                                </div>
+                                <h1 className="display-5 fw-bold text-dark mb-3">Jipstay Tenant</h1>
+                                <p className="text-muted lead">Request permanent deletion of your account and personal data</p>
+                            </div>
 
-        {/* Steps Section */}
-        <Container className="mt-4">
-          <Row className="gy-4 text-center">
-            {[
-              {
-                step: "Step 1",
-                title: "Submit Request",
-                desc: "Contact us via WhatsApp or email with your data deletion request",
-                icon: <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/></svg>,
-              },
-              {
-                step: "Step 2",
-                title: "Verification",
-                desc: "We'll verify your identity to ensure the request is legitimate",
-                icon: <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M480-80q-139-35-229.5-159.5T160-516v-244l320-120 320 120v244q0 152-90.5 276.5T480-80Zm0-84q97-30 162-118.5T718-480H480v-315l-240 90v207q0 7 2 18h238v316Z"/></svg>,
-              },
-              {
-                step: "Step 3",
-                title: "Processing",
-                desc: "Your data will be removed from our systems within 30 days",
-                icon: <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m370-80-16-128q-13-5-24.5-12T307-235l-119 50L78-375l103-78q-1-7-1-13.5v-27q0-6.5 1-13.5L78-585l110-190 119 50q11-8 23-15t24-12l16-128h220l16 128q13 5 24.5 12t22.5 15l119-50 110 190-103 78q1 7 1 13.5v27q0 6.5-2 13.5l103 78-110 190-118-50q-11 8-23 15t-24 12L590-80H370Zm70-80h79l14-106q31-8 57.5-23.5T639-327l99 41 39-68-86-65q5-14 7-29.5t2-31.5q0-16-2-31.5t-7-29.5l86-65-39-68-99 42q-22-23-48.5-38.5T533-694l-13-106h-79l-14 106q-31 8-57.5 23.5T321-633l-99-41-39 68 86 64q-5 15-7 30t-2 32q0 16 2 31t7 30l-86 65 39 68 99-42q22 23 48.5 38.5T427-266l13 106Zm42-180q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Zm-2-140Z"/></svg>,
-              },
-              {
-                step: "Step 4",
-                title: "Confirmation",
-                desc: "You'll receive confirmation once the deletion is complete",
-                icon: <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m424-312 282-282-56-56-226 226-114-114-56 56 170 170ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>,
-              },
-            ].map((item, index) => (
-              <Col key={index} xs={12} md={6} lg={3}>
-                <Card className="h-100 shadow-sm border-0 p-3 text-center">
-                  <div style={{ fontSize: "2rem" }}>{item.icon}</div>
-                  <Card.Title className="mt-3 fw-bold">{item.step}</Card.Title>
-                  <Card.Subtitle className="fw-semibold text-dark mb-2">{item.title}</Card.Subtitle>
-                  <Card.Text className="text-muted small">{item.desc}</Card.Text>
-                </Card>
-              </Col>
-            ))}
-          </Row>
-        </Container>
+                            {/* App Info Card */}
+                            <div className="card bg-primary bg-opacity-10 border-primary mb-5">
+                                <div className="card-body">
+                                    <div className="row text-center justify-content-center">
+                                        <div className="col-md-5 mb-3 mb-md-0">
+                                            <h6 className="text-muted small mb-1">App Name</h6>
+                                            <p className="fw-bold mb-0 fs-5">Jipstay Tenant</p>
+                                        </div>
+                                        <div className="col-md-5 mb-3 mb-md-0">
+                                            <h6 className="text-muted small mb-1">Developer</h6>
+                                            <p className="fw-bold mb-0 fs-5">LakshmiKanth (LKR Technologies Pvt.Ltd)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-        {/* What Data Can Be Deleted Section */}
-        <Container className="mt-5">
-          <h3 className="section-title red">What Data Can Be Deleted?</h3>
-          <Row className="mt-4">
-            <Col md={6} className="mb-4">
-              <Card className="border-success shadow-sm">
-                <Card.Header className="bg-success text-white fw-bold">
-                  ✅ Data We Can Delete
-                </Card.Header>
-                <ListGroup variant="flush">
-                  {[
-                    "Guest information",
-                    "Booking information",
-                    "Payment information",
-                    "Personal details and government-approved ID for KYC verification",
-                    "Helpdesk/chat communication with our support team",
-                  ].map((item, index) => (
-                    <ListGroup.Item key={index}>{item}</ListGroup.Item>
-                  ))}
-                </ListGroup>
-              </Card>
-            </Col>
+                            {/* Content Card */}
+                            <div className="bg-white rounded-4 shadow-lg p-4 p-md-5">
 
-            <Col md={6} className="mb-4">
-              <Card className="border-warning shadow-sm">
-                <Card.Header className="bg-warning fw-bold">
-                  ⚠️ Data We Must Retain
-                </Card.Header>
-                <ListGroup variant="flush">
-                  {[
-                    "Guest identity records",
-                    "Booking history and invoices for GST & taxation compliance",
-                    "Payment and refund transaction records",
-                    "Legal documentation related to disputes, safety, or verification",
-                    "Safety and security logs",
-                  ].map((item, index) => (
-                    <ListGroup.Item key={index}>{item}</ListGroup.Item>
-                  ))}
-                </ListGroup>
-              </Card>
-            </Col>
-          </Row>
+                                {/* How to Request */}
+                                <section className="mb-5">
+                                    <h2 className="h3 fw-bold text-dark mb-4 pb-2 border-bottom border-danger" style={{ borderBottomWidth: '3px' }}>
+                                        <span className="me-2">📝</span> How to Request Account Deletion
+                                    </h2>
+                                    <p>If you wish to delete your account and associated data, please submit a request using one of the following methods:</p>
 
-          {/* Important Information Section */}
-          <Alert variant="danger" className="mt-4">
-            <Alert.Heading> Important Information</Alert.Heading>
-            <ul className="mb-0">
-              <li>Data deletion is permanent and cannot be undone.</li>
-              <li>Some information may be retained for legal compliance (e.g., GST records: 5+ years).</li>
-              <li> Processing may take up to 10 days to complete</li>
-              <li>You may lose access to booking history and preferences</li>
-              <li>Future bookings will require providing information again</li>
-            </ul>
-          </Alert>
-        </Container>
+                                    <div className="row g-4 mt-3">
+                                        {/* Email Method */}
+                                        <div className="col-md-6">
+                                            <div className="card h-100 border-success">
+                                                <div className="card-header bg-success text-white">
+                                                    <h5 className="mb-0">📧 1. Email (Preferred Method)</h5>
+                                                </div>
+                                                <div className="card-body">
+                                                    <p className="mb-2">Send an email to:</p>
+                                                    <p className="fw-bold fs-5 text-primary mb-3">
+                                                        <a href="mailto:contactlkrtechnologies@gmail.com">contactlkrtechnologies@gmail.com</a>
+                                                    </p>
+                                                    <div className="bg-light p-3 rounded">
+                                                        <p className="mb-1"><strong>Subject:</strong></p>
+                                                        <p className="font-monospace small mb-2">Account Deletion Request – Jipstay Tenant</p>
+                                                        <p className="mb-0"><strong>Include:</strong> The registered mobile number or email used in the app.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-        <Container className="my-5">
-          <Row className="text-center">
-            <Col>
-              <h4 className="fw-bold">Ready to Submit Your Request?</h4>
-              <p className="text-muted">
-                Contact us through your preferred method to initiate the data deletion process.
-              </p>
-            </Col>
-          </Row>
+                                        {/* WhatsApp Method */}
+                                        <div className="col-md-6">
+                                            <div className="card h-100 border-warning">
+                                                <div className="card-header bg-warning text-white">
+                                                    <h5 className="mb-0">📱 2. WhatsApp Support</h5>
+                                                </div>
+                                                <div className="card-body">
+                                                    <p className="mb-2">Message us at:</p>
+                                                    <p className="fw-bold fs-5 text-success mb-3">
+                                                        <a href="https://wa.me/919912155551" target="_blank" rel="noopener noreferrer">+91 9912155551</a>
+                                                    </p>
+                                                    <div className="bg-light p-3 rounded">
+                                                        <p className="mb-1"><strong>Start your message with:</strong></p>
+                                                        <p className="font-monospace small mb-0">Account Deletion Request – Jipstay Tenant</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-          <Row className="justify-content-center">
-            <Col md={8}>
-              <Card className="shadow-sm border-0 p-4">
-                <div className="d-flex flex-wrap justify-content-center gap-3">
-                  <Button
-                    variant="success"
-                    className="px-4 py-2 fw-semibold"
-                    href="https://wa.me/919100006517"
-                    target="_blank"
-                  >
-                    Request via WhatsApp
-                  </Button>
-                </div>
-              </Card>
-            </Col>
-          </Row>
+                                    <div className="alert alert-info mt-4" role="alert">
+                                        <span className="me-2">⏱️</span>
+                                        <strong>We will acknowledge your request within 48 hours.</strong>
+                                    </div>
+                                </section>
 
-          {/* Contact Information */}
-          <Row className="justify-content-center mt-5">
-            <Col md={8}>
-              <Card className="shadow-sm border-0 p-4">
-                <h5 className="fw-bold mb-3">Contact Information</h5>
-                <p>
-                  <strong>WhatsApp:</strong> +91 9100006517 <br />
-                  <strong>Email:</strong>{" "}
-                  <a href="mailto:contactlkrtechnologies@gmail.com">
-                    contactlkrtechnologies@gmail.com
-                  </a>{" "}
-                  <br />
-                  <strong>Response Time:</strong> Within 48 hours
-                </p>
-              </Card>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-    </>
-    )
-}
+                                {/* Identity Verification */}
+                                <section className="mb-5">
+                                    <h2 className="h3 fw-bold text-dark mb-4 pb-2 border-bottom border-warning" style={{ borderBottomWidth: '3px' }}>
+                                        <span className="me-2">🔐</span> Identity Verification
+                                    </h2>
+                                    <p>To protect your privacy and ensure the request is legitimate, we may ask for one or more of the following for verification:</p>
+
+                                    <div className="row g-2 mt-3">
+                                        {[
+                                            { icon: '📱', text: 'Registered mobile number' },
+                                            { icon: '📧', text: 'Registered email address' },
+                                            { icon: '🆔', text: 'User ID (if available)' },
+                                            { icon: '📋', text: 'Partial Aadhaar or PAN details (never the full number) — only if needed for verification' },
+                                        ].map((item, idx) => (
+                                            <div key={idx} className="col-md-6">
+                                                <div className="p-3 bg-light rounded-3 d-flex align-items-center">
+                                                    <span className="fs-4 me-3">{item.icon}</span>
+                                                    <span>{item.text}</span>
+                                                </div>
+                                            </div>
+                                        ))}
+                                    </div>
+
+                                    <div className="alert alert-secondary mt-3" role="alert">
+                                        <strong>Note:</strong> We do not collect unnecessary or unrelated information.
+                                    </div>
+                                </section>
+
+                                {/* Processing Time */}
+                                <section className="mb-5">
+                                    <h2 className="h3 fw-bold text-dark mb-4 pb-2 border-bottom border-info" style={{ borderBottomWidth: '3px' }}>
+                                        <span className="me-2">⏳</span> Processing Time
+                                    </h2>
+                                    <div className="card bg-info bg-opacity-10 border-info">
+                                        <div className="card-body text-center py-4">
+                                            <p className="mb-2">Once your identity is verified, your account and eligible data will be deleted within</p>
+                                            <h2 className="display-4 fw-bold text-info">30 Days</h2>
+                                            <p className="mb-0 text-muted">You will receive a confirmation message once the process is complete.</p>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                {/* Data That Will Be Deleted */}
+                                <section className="mb-5">
+                                    <h2 className="h3 fw-bold text-dark mb-4 pb-2 border-bottom border-danger" style={{ borderBottomWidth: '3px' }}>
+                                        <span className="me-2">🗑️</span> Data That Will Be Deleted
+                                    </h2>
+                                    <p>Upon approval of your deletion request, the following information will be <strong>permanently removed</strong>:</p>
+
+                                    <ul className="list-group list-group-flush">
+                                        {[
+                                            'Your user account and login credentials',
+                                            'Personal profile details',
+                                            'PAN card information submitted for verification',
+                                            'Aadhaar information submitted for verification',
+                                            'Bank details provided for payments or refunds',
+                                            'Helpdesk / support chat history',
+                                            'Any other personal information stored within the Jipstay Tenant app',
+                                        ].map((item, idx) => (
+                                            <li key={idx} className="list-group-item bg-transparent d-flex align-items-center">
+                                                <span className="text-danger me-2">✗</span>
+                                                {item}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </section>
+
+                                {/* Data That May Be Retained */}
+                                <section className="mb-5">
+                                    <h2 className="h3 fw-bold text-dark mb-4 pb-2 border-bottom border-warning" style={{ borderBottomWidth: '3px' }}>
+                                        <span className="me-2">📁</span> Data That May Be Retained Temporarily
+                                    </h2>
+                                    <p>Some information must be retained for legal, security, and fraud-prevention purposes, even after you request account deletion. This may include:</p>
+
+                                    <ul className="list-group list-group-flush mb-3">
+                                        {[
+                                            'Records of payments, payouts, or financial transactions',
+                                            'Identity verification logs used for fraud prevention and safety',
+                                            'Security logs (such as login attempts)',
+                                            'Dispute-related data, if any',
+                                        ].map((item, idx) => (
+                                            <li key={idx} className="list-group-item bg-transparent d-flex align-items-center">
+                                                <span className="text-warning me-2">⚠️</span>
+                                                {item}
+                                            </li>
+                                        ))}
+                                    </ul>
+
+                                    <div className="alert alert-warning" role="alert">
+                                        <p className="mb-1"><strong>This information is stored securely and is never used for marketing.</strong></p>
+                                        <p className="mb-0">It is retained only for the minimum duration required by law and then permanently deleted.</p>
+                                    </div>
+                                </section>
+
+                                {/* Important Notes */}
+                                <section className="mb-5">
+                                    <h2 className="h3 fw-bold text-dark mb-4 pb-2 border-bottom border-danger" style={{ borderBottomWidth: '3px' }}>
+                                        <span className="me-2">⚠️</span> Important Notes
+                                    </h2>
+
+                                    <div className="card bg-danger bg-opacity-10 border-danger">
+                                        <div className="card-body">
+                                            <ul className="mb-0">
+                                                <li className="mb-2"><strong>Account deletion is permanent and cannot be undone.</strong></li>
+                                                <li className="mb-2">You will lose access to booking history, saved details, and previous activity.</li>
+                                                <li className="mb-2">Any future use of the app will require creating a new account.</li>
+                                                <li className="mb-0">Active bookings, payments, or disputes may affect the deletion timeline.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                {/* Support & Contact */}
+                                <section className="mb-5">
+                                    <h2 className="h3 fw-bold text-dark mb-4 pb-2 border-bottom border-primary" style={{ borderBottomWidth: '3px' }}>
+                                        <span className="me-2">💬</span> Support & Contact
+                                    </h2>
+                                    <p>For help or additional questions regarding account deletion:</p>
+
+                                    <div className="row g-3">
+                                        <div className="col-md-4">
+                                            <div className="card h-100 text-center bg-light border-0">
+                                                <div className="card-body">
+                                                    <span className="fs-1">📧</span>
+                                                    <h6 className="fw-bold mt-2">Email</h6>
+                                                    <a href="mailto:contactlkrtechnologies@gmail.com" className="small">contactlkrtechnologies@gmail.com</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-4">
+                                            <div className="card h-100 text-center bg-light border-0">
+                                                <div className="card-body">
+                                                    <span className="fs-1">📱</span>
+                                                    <h6 className="fw-bold mt-2">WhatsApp</h6>
+                                                    <a href="https://wa.me/919912155551" target="_blank" rel="noopener noreferrer">+91 9912155551</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                {/* Additional Links */}
+                                <section className="mb-4">
+                                    <h2 className="h3 fw-bold text-dark mb-4 pb-2 border-bottom border-secondary" style={{ borderBottomWidth: '3px' }}>
+                                        <span className="me-2">🔗</span> Additional Links
+                                    </h2>
+
+                                    <div className="d-flex flex-wrap gap-3">
+                                        <a href="/privacy-policy" className="btn btn-outline-primary btn-lg">
+                                            <span className="me-2">📄</span> Privacy Policy
+                                        </a>
+                                        <a href="terms-conditions" className="btn btn-outline-secondary btn-lg">
+                                            <span className="me-2">📋</span> Terms & Conditions
+                                        </a>
+                                    </div>
+                                </section>
+
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+        </>
+    );
+};
 
 export default Datadeletion;
